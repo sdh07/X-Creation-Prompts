@@ -1,3 +1,9 @@
+## Role Library
+
+### Example Usage:
+To import roles:
+`/import_role_library "https://raw.githubusercontent.com/sdh07/X-Creation-Prompts/main/Role%20Library.md"`
+
 ## 1. Roles
 
 ### 1.1 Role Template
