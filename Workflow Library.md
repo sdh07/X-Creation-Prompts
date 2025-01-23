@@ -1,6 +1,12 @@
-### Co-Creation Workflow
+## Workflow Library
 
-#### **Phase 1: Preparation**
+### Example Usage:
+To import workflows:
+`/import_workflow_library "https://raw.githubusercontent.com/sdh07/X-Creation-Prompts/main/Workflow%20Library.md"`
+
+## Co-Creation Workflow
+
+### **Phase 1: Preparation**
 **Objective:** Define the challenge and assemble the team.  
 **Key Deliverables:**
 - Defined and validated challenge statement (Challenge Deliverable Template, see Preparation Phase Guide, Step 1: Challenge Identification).
@@ -28,7 +34,7 @@
 
 ---
 
-#### **Phase 2: Empathy Building**
+### **Phase 2: Empathy Building**
 **Objective:** Understand the needs, motivations, and challenges of users and stakeholders.  
 **Key Deliverables:**
 - Empathy maps and personas.
@@ -51,7 +57,7 @@
 
 ---
 
-#### **Phase 3: Ideation**
+### **Phase 3: Ideation**
 **Objective:** Generate ideas and refine the problem statement.  
 **Key Deliverables:**
 - Refined problem statement (Challenge Deliverable Template).
@@ -81,7 +87,7 @@
 
 ---
 
-#### **Phase 4: Prototyping**
+### **Phase 4: Prototyping**
 **Objective:** Develop and test a prototype based on selected ideas.  
 **Key Deliverables:**
 - Initial prototype.
@@ -105,7 +111,7 @@
 
 ---
 
-#### **Phase 5: Implementation Planning**
+### **Phase 5: Implementation Planning**
 **Objective:** Define a roadmap for scaling the solution.  
 **Key Deliverables:**
 - Comprehensive implementation roadmap.
@@ -128,7 +134,7 @@
 
 ---
 
-#### **Phase 6: Follow-Up**
+### **Phase 6: Follow-Up**
 **Objective:** Evaluate the solution’s impact and identify lessons learned.  
 **Key Deliverables:**
 - Impact assessment report (updated using Research Brief Template).
