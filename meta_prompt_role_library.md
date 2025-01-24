@@ -590,4 +590,3 @@ A concise description of what this role does, its overall purpose, and how it fi
 	•	Cross-Linking:
 	•	Reference this library in your Agile Meta Prompt or Deliverable Template Library when a new role is invoked.
 	•	Keep naming and acronyms consistent in logs, commits, and user stories.
-
