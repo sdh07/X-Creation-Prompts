@@ -1,12 +1,13 @@
 # Deliverables Library: Design Thinking Edition
 
-A **single-file** Deliverables Library tailored for **Design Thinking**. Each deliverable section includes an **Involved Roles** list, referencing your [Role Library](../path-to/ROLE_LIBRARY.md). A **Deliverable Template** is provided for creating new items. This file is formatted for correct Markdown rendering in GitHub.
+Below is the **complete, updated** library for **Design Thinking** deliverables. Each deliverable includes an **Involved Roles** section referencing your [Role Library](../role-library/). References to the **Agile Coach (AC)** have been added where relevant, reflecting broader Agile facilitation in design thinking contexts. You can upload this file (e.g., `DELIVERABLES_LIBRARY_DESIGN_THINKING.md`) directly to GitHub.
 
 ---
 
 ## 1. Introduction
 
-Design Thinking typically covers five phases—**Empathize, Define, Ideate, Prototype, Test**—and can extend further as needed. The deliverables below help teams maintain **consistency, clarity, and quality**. If you need a new deliverable beyond these, see [Section 3.8](#38-creating-a-new-template-on-the-fly).
+Design Thinking typically spans **Empathize**, **Define**, **Ideate**, **Prototype**, and **Test** phases, though it can extend further. The deliverables in this library help maintain **consistency, clarity, and quality** throughout design thinking projects.  
+When using **Agile** as the core framework, the **Agile Coach (AC)** can help facilitate or supervise these deliverables, integrating them into sprints, standups, or reviews.
 
 ---
 
@@ -30,7 +31,7 @@ Design Thinking typically covers five phases—**Empathize, Define, Ideate, Prot
 
 ## 3. Deliverables
 
-Each deliverable follows a consistent format:
+Each deliverable follows a consistent structure:
 
 - **Deliverable Summary**  
 - **Purpose & Scope**  
@@ -45,14 +46,14 @@ Each deliverable follows a consistent format:
 ### 3.1 Empathy Map Template
 
 **Deliverable Summary**  
-An **Empathy Map** visualizes what users **say, think, do, and feel**, aligning the team on user pain points, motivations, and emotional triggers.
+An **Empathy Map** visualizes what users **say, think, do, and feel**, aligning the team on user frustrations, motivations, and emotional triggers.
 
 **Purpose & Scope**  
 - **Purpose**: Gather user insights to guide solution ideation.  
-- **Scope**: Typically in the **Empathize** phase; based on interviews or observations.
+- **Scope**: Typically used in the **Empathize** phase, informed by interviews, observations, or prior research.
 
 **Required Inputs**  
-- User transcripts, observational notes, prior research data.
+- User transcripts, observational notes, or existing research data.
 
 **Suggested Sections**  
 1. **User/Stakeholder Description**  
@@ -63,335 +64,319 @@ An **Empathy Map** visualizes what users **say, think, do, and feel**, aligning 
 6. **Key Insights / Opportunities**
 
 **Acceptance Criteria**  
-- At least 2–3 authentic user quotes.  
+- Includes at least 2–3 **authentic user quotes**.  
 - Differentiates observed facts vs. assumptions.  
 - Identifies potential design or research opportunities.
 
 **Involved Roles**  
-- **Reporter (RPT)** or **Challenge Lead (CL)**: Gathers user data.  
-- **ISME**: Interprets behaviors with domain perspective.  
-- **QAA**: Ensures clarity and completeness.
+- **Reporter (RPT)** or **Challenge Lead (CL)**: Gathers user data (interviews, observations).  
+- **ISME**: Offers domain/context expertise to interpret user behaviors.  
+- **QAA**: Ensures clarity and completeness.  
+- **Agile Coach (AC)** (Optional): May coordinate how empathy insights feed into the sprint backlog or next design iteration.
 
 **(Optional) Sample Output**  
-~~~yaml
+```yaml
 # Empathy Map: Busy Parents Using Grocery Apps
 
 ## User Profile
 Parents aged 30–45, working full-time...
 
 ## Says
-- "I want more reliable grocery options without waiting."
+- "I want faster, more reliable grocery options."
 
 ## Thinks
 - "Online ordering might save me precious time..."
 
 ...
-~~~
 
----
+3.2 Problem Statement Template
 
-### 3.2 Problem Statement Template
+Deliverable Summary
+A Problem Statement articulates the user’s challenge: who is affected, what the pain point is, and why it matters.
 
-**Deliverable Summary**  
-A **Problem Statement** defines the user’s challenge—who is affected, what the pain point is, and why it matters.
+Purpose & Scope
+	•	Purpose: Converge on a user-centered problem before ideation.
+	•	Scope: Used in the Define phase, after empathy research.
 
-**Purpose & Scope**  
-- **Purpose**: Converge on a user-centered problem before ideation.  
-- **Scope**: Used in the **Define** phase, after empathy research.
+Required Inputs
+	•	Empathy data (interviews, empathy maps).
+	•	Any initial constraints (time, resources).
 
-**Required Inputs**  
-- Empathy data (interviews, empathy maps).  
-- Initial constraints (budget, timeline).
+Suggested Sections
+	1.	Introduction
+	2.	Target User Group
+	3.	User Need / Pain Point
+	4.	Why It Matters
+	5.	Constraints & Criteria
 
-**Suggested Sections**  
-1. **Introduction**  
-2. **Target User Group**  
-3. **User Need / Pain Point**  
-4. **Why It Matters**  
-5. **Constraints & Criteria**
+Acceptance Criteria
+	•	States user need or pain point validated by real data.
+	•	Focused enough for creative solutions.
+	•	Aligned with brand or business goals.
 
-**Acceptance Criteria**  
-- States user need or pain point backed by real data.  
-- Focused enough for creative solutions.  
-- Aligns with brand or business goals.
+Involved Roles
+	•	Challenge Owner (CHO) or Challenge Lead (CL): Drafts statement based on user insights.
+	•	ISME: Provides domain verification.
+	•	QAA: Checks clarity, alignment with constraints.
+	•	Agile Coach (AC) (Optional): May help refine or split the problem statement into backlog items for agile sprints.
 
-**Involved Roles**  
-- **Challenge Owner (CHO)** or **Challenge Lead (CL)**: Drafts the statement from user insights.  
-- **ISME**: Ensures domain relevance.  
-- **QAA**: Checks clarity and alignment with constraints.
+(Optional) Sample Output
 
-**(Optional) Sample Output**  
-~~~yaml
 # Problem Statement
 
 ## Introduction
 Busy parents struggle with meal planning and grocery runs...
 
 ## Target User Group
-Working parents (30–45)...
+Working parents (30–45) with limited spare time...
 
 ...
-~~~
 
----
+3.3 Persona Template
 
-### 3.3 Persona Template
+Deliverable Summary
+A Persona is a data-informed fictional character representing a user group’s demographics, goals, and frustrations.
 
-**Deliverable Summary**  
-A **Persona** is a data-informed fictional character representing a key user group’s demographics, behaviors, goals, and frustrations.
+Purpose & Scope
+	•	Purpose: Keep design decisions user-focused.
+	•	Scope: Often refined in the Define or Ideation phases.
 
-**Purpose & Scope**  
-- **Purpose**: Keep design decisions user-focused.  
-- **Scope**: Often refined in the **Define** or **Ideation** phases.
+Required Inputs
+	•	Demographics, user surveys, interviews, usage metrics.
 
-**Required Inputs**  
-- Demographics, user surveys, interview data, usage metrics.
+Suggested Sections
+	1.	Demographics
+	2.	Background & Context
+	3.	Needs & Goals
+	4.	Frustrations / Pain Points
+	5.	Tech Behavior
+	6.	Quote (a representative statement)
 
-**Suggested Sections**  
-1. **Demographics**  
-2. **Background & Context**  
-3. **Needs & Goals**  
-4. **Frustrations / Pain Points**  
-5. **Tech Behavior**  
-6. **Quote**
+Acceptance Criteria
+	•	Reflects actual research, not guesswork.
+	•	Includes at least one direct user quote.
+	•	Shows 2–3 design-relevant insights.
 
-**Acceptance Criteria**  
-- Reflects actual research, not guesswork.  
-- Includes at least one direct user quote.  
-- Shows 2–3 design-relevant insights.
+Involved Roles
+	•	Reporter (RPT) or Challenge Lead (CL): Consolidates user data to form the persona.
+	•	ISME: Validates domain assumptions.
+	•	QAA: Ensures logical consistency and completeness.
+	•	Agile Coach (AC) (Optional): May incorporate persona tasks or findings into sprint planning.
 
-**Involved Roles**  
-- **Reporter (RPT)** or **Challenge Lead (CL)**: Consolidates user data.  
-- **ISME**: Validates domain assumptions.  
-- **QAA**: Checks logical consistency and completeness.
+(Optional) Sample Output
 
-**(Optional) Sample Output**  
-~~~yaml
 # Persona: Alex the Time-Strapped Manager
 
 ## Demographics
 Age: 35, Occupation: Project Manager...
 
 ## Goals
-- Streamline weekly grocery tasks
+- Simplify weekly grocery tasks
 ...
-~~~
 
----
+3.4 Ideation Session Outline Template
 
-### 3.4 Ideation Session Outline Template
+Deliverable Summary
+An Ideation Session Outline structures brainstorming, ensuring a balance of divergent (idea generation) and convergent (idea selection) thinking.
 
-**Deliverable Summary**  
-An **Ideation Session Outline** structures brainstorming, ensuring a balance of divergent (idea generation) and convergent (idea selection) thinking.
+Purpose & Scope
+	•	Purpose: Stimulate creative ideas to solve a defined problem.
+	•	Scope: In the Ideation phase, adaptable for remote or in-person sessions.
 
-**Purpose & Scope**  
-- **Purpose**: Generate creative ideas to solve a defined problem.  
-- **Scope**: In the **Ideation** phase, adaptable to remote or in-person sessions.
+Required Inputs
+	•	A clear Problem Statement.
+	•	Relevant user data (personas, empathy maps).
 
-**Required Inputs**  
-- A clear Problem Statement.  
-- Relevant user data (personas, empathy maps).
+Suggested Sections
+	1.	Session Goals
+	2.	Agenda / Schedule
+	3.	Methods & Techniques (“How Might We,” “SCAMPER,” “Crazy 8s,” etc.)
+	4.	Facilitator & Participants
+	5.	Materials Needed
+	6.	Next Steps
 
-**Suggested Sections**  
-1. **Session Goals**  
-2. **Agenda / Schedule**  
-3. **Methods & Techniques**  
-4. **Facilitator & Participants**  
-5. **Materials Needed**  
-6. **Next Steps**
+Acceptance Criteria
+	•	Adequate time for idea generation and selection.
+	•	Documented outcomes (photos, whiteboard snapshots, Miro boards, etc.).
+	•	Clear next steps or top ideas to develop further.
 
-**Acceptance Criteria**  
-- Enough time for idea generation and selection.  
-- Documented outcomes (photos, Miro boards, etc.).  
-- Clear next steps or top ideas for prototyping.
+Involved Roles
+	•	Agile Coach (AC) or Challenge Lead (CL): Facilitates the session.
+	•	ISME: Provides domain insights for idea feasibility.
+	•	QAA: Ensures session meets stated goals and clarity.
+	•	Reporter (RPT) (Optional): May capture session outcomes or user quotes if the session is large-scale.
 
-**Involved Roles**  
-- **Agile Coach (AC)** or **Challenge Lead (CL)**: Facilitates the session.  
-- **ISME**: Provides domain insights for idea feasibility.  
-- **QAA**: Ensures session output meets goals and clarity.
+(Optional) Sample Output
 
-**(Optional) Sample Output**  
-~~~yaml
 # Ideation Session Outline
 
 ## Session Goals
-Generate 15+ concepts for reducing grocery-shopping friction.
+Generate at least 15 new concepts for reducing grocery-shopping friction.
 
 ## Agenda
 1. Intro & Recap (10 min)
 2. "How Might We" Brainstorm (20 min)
 3. Voting & Clustering (15 min)
+4. Wrap-Up & Next Steps (5 min)
+
 ...
-~~~
 
----
+3.5 Prototype Brief Template
 
-### 3.5 Prototype Brief Template
+Deliverable Summary
+A Prototype Brief defines the scope and features of a prototype, focusing on what will be tested and why.
 
-**Deliverable Summary**  
-A **Prototype Brief** outlines the scope and features of a prototype, focusing on what will be tested and why.
+Purpose & Scope
+	•	Purpose: Plan a prototype to validate core assumptions.
+	•	Scope: Used in the Prototype phase; updated as feedback emerges.
 
-**Purpose & Scope**  
-- **Purpose**: Plan a prototype to validate core assumptions.  
-- **Scope**: Used in the **Prototype** phase; updated after feedback.
+Required Inputs
+	•	Chosen concept from ideation.
+	•	Core user flows/features to test.
 
-**Required Inputs**  
-- Chosen concept from ideation.  
-- Core user flows/features to test.
+Suggested Sections
+	1.	Prototype Objective
+	2.	Key Features / Flows
+	3.	Fidelity Level (paper sketches, clickable mockup, functional MVP)
+	4.	Materials / Tools (Figma, code frameworks)
+	5.	Testing Scenarios (tasks expected of users)
+	6.	Success Criteria
 
-**Suggested Sections**  
-1. **Prototype Objective**  
-2. **Key Features / Flows**  
-3. **Fidelity Level**  
-4. **Materials / Tools**  
-5. **Testing Scenarios**  
-6. **Success Criteria**
+Acceptance Criteria
+	•	Clear statement of user behaviors or assumptions being tested.
+	•	Feasible within time/resource constraints.
+	•	Defined success metrics (quantitative or qualitative).
 
-**Acceptance Criteria**  
-- Clearly states which user behavior or assumption is under test.  
-- Feasible within time/resources.  
-- Has metrics for success/failure.
+Involved Roles
+	•	Design Thinking Guru (DTG) or UX Designer (DUX): Crafts the prototype approach.
+	•	QAA: Defines acceptance metrics or test criteria.
+	•	FS: Gathers stakeholder/user feedback post-prototype.
+	•	Agile Coach (AC) (Optional): Integrates the prototype tasks into the sprint plan, ensuring daily progress and standups track the prototype’s development.
 
-**Involved Roles**  
-- **Design Thinking Guru (DTG)** or **UX Designer (DUX)**: Crafts the prototype approach.  
-- **QAA**: Defines acceptance metrics.  
-- **FS**: Collects stakeholder feedback post-prototype.
+(Optional) Sample Output
 
-**(Optional) Sample Output**  
-~~~yaml
 # Prototype Brief
 
 ## Objective
-Test if "Meal Planner" feature reduces friction in weekly shopping.
+Test if the "Meal Planner" feature reduces friction in weekly shopping.
 
 ## Key Features
-- Automated shopping list
+- Automated shopping list generation
 - Recipe suggestions
 ...
-~~~
 
----
+3.6 Testing & Feedback Session Template
 
-### 3.6 Testing & Feedback Session Template
+Deliverable Summary
+A Testing & Feedback Session validates prototypes or concepts, gathering user input (qualitative and/or quantitative) to guide improvements.
 
-**Deliverable Summary**  
-A **Testing & Feedback Session** validates prototypes or concepts, capturing user input (qualitative or quantitative) to guide improvements.
+Purpose & Scope
+	•	Purpose: Verify prototype assumptions, identify enhancements.
+	•	Scope: In the Test phase; repeated as prototypes evolve.
 
-**Purpose & Scope**  
-- **Purpose**: Verify prototype assumptions, identify enhancements.  
-- **Scope**: In the **Test** phase; repeated as prototypes evolve.
+Required Inputs
+	•	Prototype or concept artifact.
+	•	Clear testing objectives (e.g., usability, functionality, user satisfaction).
 
-**Required Inputs**  
-- Prototype or concept artifact.  
-- Clear testing objectives (usability, satisfaction, etc.).
+Suggested Sections
+	1.	Test Objectives
+	2.	Participant Criteria
+	3.	Test Script / Tasks
+	4.	Observation & Data Collection
+	5.	Feedback Summary
+	6.	Proposed Revisions
 
-**Suggested Sections**  
-1. **Test Objectives**  
-2. **Participant Criteria**  
-3. **Test Script / Tasks**  
-4. **Observation & Data Collection**  
-5. **Feedback Summary**  
-6. **Proposed Revisions**
+Acceptance Criteria
+	•	Defined tasks/questions for participants.
+	•	Structured feedback collection (notes, surveys, analytics).
+	•	Concrete next steps if issues are uncovered.
 
-**Acceptance Criteria**  
-- Defined tasks/questions for participants.  
-- Structured feedback collection (forms, analytics).  
-- Concrete next steps if issues are discovered.
+Involved Roles
+	•	QAA: Oversees test design and consistency.
+	•	FS: Synthesizes user feedback into actionable improvements.
+	•	UX Designer (DUX) or Reporter (RPT): May observe/facilitate test sessions.
+	•	Agile Coach (AC) (Optional): Ensures test findings are integrated into the sprint backlog or next iteration.
 
-**Involved Roles**  
-- **QAA**: Oversees test design, ensures results are consistent.  
-- **FS**: Aggregates user feedback, forms improvement recommendations.  
-- **UX Designer (DUX)** or **Reporter (RPT)**: May observe/facilitate sessions.
+(Optional) Sample Output
 
-**(Optional) Sample Output**  
-~~~yaml
 # Testing & Feedback Session
 
 ## Test Objectives
-Evaluate usability of new "Meal Planner" interface.
+Gauge usability of the new "Meal Planner" interface.
 
 ## Participant Criteria
 Age 30–45, busy parents with at least 1 child...
-~~~
 
----
+...
 
-### 3.7 Design Challenge Template (Force Design Challenge)
+3.7 Design Challenge Template (Force Design Challenge)
 
-**Deliverable Summary**  
-A **Design Challenge** (a.k.a. Force Design Challenge) frames a bold user or business problem that spurs the team to explore innovative or disruptive solutions.
+Deliverable Summary
+A Design Challenge (sometimes called a “Force Design Challenge”) frames a bold user or business problem that spurs innovative, potentially disruptive solutions.
 
-**Purpose & Scope**  
-- **Purpose**: Spark ambitious, non-incremental ideas.  
-- **Scope**: Can appear at any stage for reorientation.
+Purpose & Scope
+	•	Purpose: Spark ambitious, non-incremental thinking.
+	•	Scope: Can be introduced at any stage to reorient a team or push for radical innovation.
 
-**Required Inputs**  
-- High-level user/business need.  
-- Constraints (time, resources, compliance).  
-- Desired impact or success metrics.
+Required Inputs
+	•	High-level user or business need.
+	•	Constraints (time, resources, regulations).
+	•	Desired impact or “wild success” markers.
 
-**Suggested Sections**  
-1. **Challenge Statement**  
-2. **Background / Context**  
-3. **Constraints**  
-4. **Desired Outcomes**  
-5. **Proposed Approach** (optional)  
-6. **Success Criteria**
+Suggested Sections
+	1.	Challenge Statement
+	2.	Background / Context
+	3.	Constraints
+	4.	Desired Outcomes
+	5.	Proposed Approach (optional if the team defines it)
+	6.	Success Criteria
 
-**Acceptance Criteria**  
-- Clearly states an ambitious, user-centered challenge.  
-- Leaves room for creativity.  
-- Defines how success is measured or recognized.
+Acceptance Criteria
+	•	Clearly states an ambitious, user-centered challenge.
+	•	Leaves room for creative exploration.
+	•	Specifies how success is measured or recognized.
 
-**Involved Roles**  
-- **Challenge Owner (CHO)** or **Challenge Lead Manager (CLM)**: Proposes/refines the challenge.  
-- **Adaptive Strategist (AS)**: Validates feasibility or pivot points.  
-- **ISME**: Provides domain knowledge to ground the challenge.
+Involved Roles
+	•	Challenge Owner (CHO) or Challenge Lead Manager (CLM): Proposes/refines the challenge scope.
+	•	Adaptive Strategist (AS): Validates feasibility or pivot points.
+	•	ISME: Offers domain knowledge to ground the challenge in real data.
+	•	Agile Coach (AC) (Optional): May ensure the challenge tasks are integrated into the sprint, focusing on daily standups and iterative feedback.
 
-**(Optional) Sample Output**  
-~~~yaml
+(Optional) Sample Output
+
 # Force Design Challenge: Reinventing Grocery Shopping
 
 ## Challenge Statement
 How might we let parents skip meal planning entirely, saving hours weekly?
 
 ## Background & Context
-...
-~~~
+Surveys show that...
 
----
+3.8 Creating a New Template on the Fly
 
-### 3.8 Creating a New Template on the Fly
+Fallback Process
+If none of the above templates fit your Design Thinking scenario:
+	1.	Check for Similar Deliverables
+	•	Could you adapt an existing template, e.g., “Problem Statement” or “Empathy Map”?
+	2.	Create a New Template
+	•	Copy the Deliverable Template below.
+	•	Fill in relevant fields: Summary, Purpose & Scope, Inputs, Acceptance Criteria, Involved Roles, etc.
+	3.	Documentation & Approval
+	•	Propose your new template via pull request.
+	•	Once approved, it becomes an official part of this library.
 
-**Fallback Process**  
-If none of the above templates fit your **Design Thinking** scenario:
+3.9 Deliverable Template
 
-1. **Check Similar Deliverables**  
-   - Could you adapt something like “Problem Statement” or “Empathy Map”?
+Use this format when creating new design thinking deliverables, ensuring consistency with existing items:
 
-2. **Create a New Template**  
-   - Copy the [Deliverable Template](#39-deliverable-template).  
-   - Fill in the relevant fields: **Summary, Purpose & Scope, Inputs, Acceptance Criteria, Involved Roles**, etc.
-
-3. **Documentation & Approval**  
-   - Submit the new template via pull request.  
-   - Once approved, add it to this library.
-
----
-
-### 3.9 Deliverable Template
-
-Use this format when creating **new** design thinking deliverables to ensure consistency with existing items:
-
-```markdown
 ### [DELIVERABLE NAME]
 
 **Deliverable Summary**  
-Short description of this deliverable’s purpose and how it fits into Design Thinking.
+Short description of this deliverable’s purpose and how it fits into Design Thinking (or your chosen methodology).
 
 **Purpose & Scope**  
-- **Purpose**: Main reason for the deliverable.  
-- **Scope**: Which phase/context; any constraints.
+- **Purpose**: The primary outcome or reason for the deliverable.  
+- **Scope**: Which phase or context; any specific constraints.
 
 **Required Inputs**  
 - Data, research, or materials needed.
@@ -402,22 +387,23 @@ Short description of this deliverable’s purpose and how it fits into Design Th
 3. ... add as needed
 
 **Acceptance Criteria**  
-- Clear bullet points defining what “complete” means here.
+- Clear bullet points defining what “complete” or “high-quality” means.
 
 **Involved Roles**  
-- List relevant roles who typically create, review, or approve (e.g., MPA, ECPE, QAA, FS, RPT, CL).
+- List relevant roles who typically create, review, or approve this deliverable (e.g., MPA, ECPE, QAA, FS, RPT, CL, AC).
 
 **(Optional) Sample Output**  
-~~~
+```yaml
 # Example or excerpt showing how a completed deliverable might look
-~~~
 
-4. Version Control & Notes
-	•	File Name: DELIVERABLES_LIBRARY_DESIGN_THINKING.md (recommended).
-	•	Maintenance:
-	•	Track changes via commit messages or a separate changelog.
-	•	Periodically review for duplicates or outdated templates.
-	•	Cross-Linking:
-	•	If needed, link relevant roles from your Role Library.
-	•	Encourage new deliverables to follow the Deliverable Template.
+---
 
+## 4. Version Control & Notes
+
+- **File Name**: `DELIVERABLES_LIBRARY_DESIGN_THINKING.md` (suggested).  
+- **Maintenance**:
+  - Track changes via commit messages or a separate changelog.  
+  - Regularly review for duplicates or outdated templates.  
+- **Cross-Linking**:  
+  - Link roles from your [Role Library](../role-library/ROLE_LIBRARY.md) where appropriate.  
+  - Reference this library in your [Agile Meta Prompt](../agile-meta-prompt/) if sprints involve design thinking tasks.  
