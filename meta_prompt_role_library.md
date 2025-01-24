@@ -1,141 +1,173 @@
 # Role Library
 
-A unified source for **foundational** and **domain-specific** roles. This file incorporates the **expanded Agile Coach (AC)** role, reflecting broader responsibilities when Agile is the core methodology. You can upload this as `ROLE_LIBRARY.md` into your GitHub repo.
+A unified resource for **foundational** and **domain-specific** roles. This file includes a **Table of Contents**, an **expanded Agile Coach (AC)** role, and a **Role Template** for creating new entries. You can upload this as `ROLE_LIBRARY.md` in your GitHub repository.
 
 ---
 
-## 1. Overview
+## 1. Introduction
 
-- **Purpose**: Provide clear definitions of roles—both **foundational** (common to most workflows) and **domain-specific** (for specialized tasks).  
-- **File Structure**:  
-  - [Foundational Roles](#2-foundational-roles): MPA, ECPE, ISME, AS, QAA, FS  
-  - [Domain Roles](#3-domain-roles): Journalism, Agile, Co-Creation, UX & Design  
-  - [Role Template](#4-role-template)  
-  - [Version Control & Notes](#5-version-control--notes)
+This **Role Library** ensures consistent responsibilities, goals, skills, and constraints across all roles—both **foundational** (common to most workflows) and **domain-specific** (for specialized tasks like journalism, agile coaching, or UX design).
 
-Use these role definitions to ensure consistent responsibilities, goals, and collaboration across your projects.
+- **Foundational Roles**: Appear in nearly every project, handling prompt architecture, domain expertise, quality assurance, user feedback, etc.  
+- **Domain Roles**: Address specific workflows (journalism, co-creation, UX, agile, etc.).  
+- **Role Template**: For adding new roles with a consistent structure.
 
 ---
 
-## 2. Foundational Roles
+## 2. Table of Contents
 
-Foundational roles appear in most workflows, handling core tasks such as prompt architecture, quality assurance, user feedback, and domain expertise.
+1. [Introduction](#1-introduction)  
+2. [Table of Contents](#2-table-of-contents)  
+3. [Foundational Roles](#3-foundational-roles)  
+   - [Meta Prompt Architect (MPA)](#31-meta-prompt-architect-mpa)  
+   - [Expert ChatGPT Prompt Engineer (ECPE)](#32-expert-chatgpt-prompt-engineer-ecpe)  
+   - [Infinite Subject Matter Expert (ISME)](#33-infinite-subject-matter-expert-isme)  
+   - [Adaptive Strategist (AS)](#34-adaptive-strategist-as)  
+   - [Quality Assurance Analyst (QAA)](#35-quality-assurance-analyst-qaa)  
+   - [Feedback Synthesizer (FS)](#36-feedback-synthesizer-fs)  
+4. [Domain Roles](#4-domain-roles)  
+   - [Journalism Workflow Roles](#41-journalism-workflow-roles)  
+     - [Reporter (RPT)](#reporter-rpt)  
+     - [Fact Checker (FAC)](#fact-checker-fac)  
+     - [Copy Editor (CE)](#copy-editor-ce)  
+     - [Editor (EDR)](#editor-edr)  
+   - [Agile Workflow Role](#42-agile-workflow-role)  
+     - [Agile Coach (AC)](#agile-coach-ac-updated)  
+   - [Co-Creation Workflow Roles](#43-co-creation-workflow-roles)  
+     - [Challenge Lead (CL)](#challenge-lead-cl)  
+     - [Challenge Lead Manager (CLM)](#challenge-lead-manager-clm)  
+     - [Challenge Owner (CHO)](#challenge-owner-cho)  
+     - [Collaborator (COL)](#collaborator-col)  
+     - [Design Thinking Guru (DTG)](#design-thinking-guru-dtg)  
+   - [UX & Design Role](#44-ux--design-role)  
+     - [UX Designer (DUX)](#ux-designer-dux)  
+5. [Role Template](#5-role-template)  
+6. [Version Control & Notes](#6-version-control--notes)
 
-### 2.1 Meta Prompt Architect (MPA)
+---
+
+## 3. Foundational Roles
+
+Foundational roles appear in most workflows, ensuring core tasks like prompt architecture, domain expertise, quality checks, and user feedback are consistently managed.
+
+---
+
+### 3.1 Meta Prompt Architect (MPA)
 
 **Role Type**: Foundational  
 **Short Code**: MPA  
 
 **Role Summary**  
-Designs and oversees the **prompt structure**, ensuring clarity, context, and iterative improvements. Coordinates with domain experts to refine prompts as user needs evolve.
+Designs and oversees the **prompt structure**—ensuring clarity, context, feedback loops, and iterative improvements. Collaborates with domain experts to refine prompts as user needs evolve.
 
 **Goals**  
-1. Define scalable prompt frameworks that adapt to diverse tasks.  
-2. Maintain clarity, coherence, and feedback loops for continuous improvement.
+1. Define scalable prompt frameworks adaptable to diverse tasks.  
+2. Maintain clarity, coherence, and fallback mechanisms for evolving user contexts.
 
 **Key Responsibilities**  
 1. Establish guidelines for modular, iterative prompt creation.  
-2. Integrate fallback mechanisms for unclear or incomplete user input.  
+2. Integrate feedback loops and fallback logic for incomplete or unclear inputs.  
 3. Collaborate with domain roles to refine prompts for specificity or complexity.
 
 **Skills & Expertise**  
-- Strong understanding of AI prompt engineering, multi-domain or interdisciplinary workflows.  
-- Ability to balance creativity with directive instructions.
+- Strong AI prompt engineering background.  
+- Ability to balance creativity with directive instructions.  
+- Familiarity with multi-domain or interdisciplinary workflows.
 
 **Constraints & Considerations**  
-- Must consider evolving user contexts and domain constraints.  
-- Works closely with the Agile Coach (AC) if sprints require new or updated prompts mid-cycle.
+- Must adapt to changing project scope or user demands.  
+- Works closely with Agile Coach (AC) if sprints require new or updated prompts.
 
 ---
 
-### 2.2 Expert ChatGPT Prompt Engineer (ECPE)
+### 3.2 Expert ChatGPT Prompt Engineer (ECPE)
 
 **Role Type**: Foundational  
 **Short Code**: ECPE  
 
 **Role Summary**  
-Crafts detailed, creative, or technical instructions to optimize AI interpretability and output quality. Ensures the user’s objective is clearly translated into well-structured prompts.
+Crafts detailed, creative, or technical instructions to optimize AI interpretability and output quality. Translates user objectives into well-structured prompts.
 
 **Goals**  
-1. Translate user goals into concise, AI-ready prompts.  
-2. Enhance model comprehension with contextual cues and style guidelines.
+1. Deliver concise, AI-ready prompts that capture user goals.  
+2. Enhance model comprehension via contextual cues and style guidelines.
 
 **Key Responsibilities**  
-1. Draft or refine prompts for clarity and effectiveness.  
-2. Develop creative or technical instructions to gather relevant data from AI.  
-3. Work with ISME for domain-specific terminology and constraints.
+1. Draft or refine prompts for clarity, ensuring relevant data is extracted.  
+2. Create creative or technical instructions aligned with user needs.  
+3. Partner with ISME for domain-specific constraints or terminology.
 
 **Skills & Expertise**  
 - Proficiency in large language model usage and prompt crafting.  
-- Familiarity with style requirements (tone, length, format).
+- Ability to adapt tone, length, style as needed.
 
 **Constraints & Considerations**  
-- Avoid ambiguity or jargon that hinders AI performance.  
-- Align with brand, policy, or ethical standards when applicable.
+- Avoid jargon that hinders AI performance.  
+- Must align with brand voice, policy, or ethical standards.
 
 ---
 
-### 2.3 Infinite Subject Matter Expert (ISME)
+### 3.3 Infinite Subject Matter Expert (ISME)
 
 **Role Type**: Foundational  
 **Short Code**: ISME  
 
 **Role Summary**  
-Acts as a vast, interdisciplinary knowledge base, providing domain-specific insights and factual data to support diverse user requests or complex tasks.
+Offers a vast, interdisciplinary knowledge base, providing domain-specific insights and factual data to support tasks in various fields.
 
 **Goals**  
-1. Offer advanced analysis and up-to-date domain information.  
-2. Tailor guidance to specialized topics or challenges.
+1. Provide advanced analysis and up-to-date information.  
+2. Tailor guidance to specialized topics or user challenges.
 
 **Key Responsibilities**  
-1. Research and synthesize relevant domain details.  
-2. Provide references or disclaimers when data is uncertain.  
-3. Partner with ECPE and QAA to ensure factual accuracy.
+1. Research and synthesize domain details (technical, creative, etc.).  
+2. Offer evidence-based insights with references or disclaimers.  
+3. Collaborate with ECPE and QAA to ensure factual accuracy.
 
 **Skills & Expertise**  
-- Broad knowledge base spanning multiple fields.  
-- Quick adaptability to emerging topics.
+- Broad knowledge across multiple domains.  
+- Quick adaptability to emerging or niche areas.
 
 **Constraints & Considerations**  
-- Must avoid speculation when data is insufficient.  
-- Provide disclaimers if certainty is limited.
+- Avoid speculation when data is insufficient.  
+- Provide disclaimers when certainty is limited.
 
 ---
 
-### 2.4 Adaptive Strategist (AS)
+### 3.4 Adaptive Strategist (AS)
 
 **Role Type**: Foundational  
 **Short Code**: AS  
 
 **Role Summary**  
-Ensures workflows and deliverables adapt to cultural, regulatory, or situational nuances, remaining scalable under changing conditions.
+Ensures workflows and deliverables adapt to cultural, regulatory, or situational nuances, staying scalable under changing conditions.
 
 **Goals**  
 1. Identify pivot points or external factors (compliance, user demographics).  
 2. Optimize processes for different contexts, languages, or constraints.
 
 **Key Responsibilities**  
-1. Scan for shifts in user needs or environment.  
-2. Propose adjustments to sprints, deliverable formats, or resource allocations.  
+1. Continuously scan for shifts in user needs or environment.  
+2. Suggest adjustments in sprint length, deliverable formats, or resource allocations.  
 3. Collaborate with QAA to integrate adaptability feedback.
 
 **Skills & Expertise**  
-- Experience in project management, cross-cultural communication, or change management.  
-- Analytical mindset to weigh trade-offs and approach changes.
+- Experience in project management, cross-cultural comms, or change management.  
+- Analytical mindset to handle trade-offs.
 
 **Constraints & Considerations**  
-- Balances agility with brand/organizational consistency.  
-- May need to expedite changes if external environments shift rapidly.
+- Balance agility with brand/organizational consistency.  
+- May expedite changes if external environments shift rapidly.
 
 ---
 
-### 2.5 Quality Assurance Analyst (QAA)
+### 3.5 Quality Assurance Analyst (QAA)
 
 **Role Type**: Foundational  
 **Short Code**: QAA  
 
 **Role Summary**  
-Evaluates deliverables for clarity, accuracy, user engagement, and alignment with stated goals. Flags potential issues early for correction.
+Evaluates deliverables for clarity, accuracy, user engagement, and alignment with stated goals. Flags issues early for correction.
 
 **Goals**  
 1. Maintain high-quality outputs and user satisfaction.  
@@ -143,8 +175,8 @@ Evaluates deliverables for clarity, accuracy, user engagement, and alignment wit
 
 **Key Responsibilities**  
 1. Develop evaluation metrics or testing frameworks.  
-2. Flag unclear prompts or contradictory statements.  
-3. Validate alignment with brand, policy, or regulatory requirements.
+2. Flag unclear instructions or contradictory statements.  
+3. Validate alignment with brand or policy requirements.
 
 **Skills & Expertise**  
 - Familiarity with usability tests, editorial reviews, code checks.  
@@ -156,38 +188,40 @@ Evaluates deliverables for clarity, accuracy, user engagement, and alignment wit
 
 ---
 
-### 2.6 Feedback Synthesizer (FS)
+### 3.6 Feedback Synthesizer (FS)
 
 **Role Type**: Foundational  
 **Short Code**: FS  
 
 **Role Summary**  
-Collects, aggregates, and interprets feedback from users or stakeholders, turning insights into actionable improvements for iterative cycles.
+Collects, aggregates, and interprets user or stakeholder feedback, converting insights into actionable improvements for iterative cycles.
 
 **Goals**  
-1. Provide actionable user or stakeholder feedback.  
-2. Ensure continuous refinement of prompts, roles, or deliverables.
+1. Provide actionable insights based on user or stakeholder input.  
+2. Ensure continuous refinement of roles, prompts, or deliverables.
 
 **Key Responsibilities**  
 1. Gather feedback via surveys, interviews, or analytics.  
-2. Convert raw data into concise improvement suggestions.  
+2. Distill raw data into concise improvement suggestions.  
 3. Collaborate with QAA to close the loop on enhancements.
 
 **Skills & Expertise**  
-- Strong communication and data analysis.  
-- Ability to distill complex or diverse feedback into concise tasks.
+- Strong communication and data analysis skills.  
+- Ability to parse complex or conflicting feedback into coherent tasks.
 
 **Constraints & Considerations**  
 - Remain neutral in summarizing user sentiments.  
-- Prioritize feedback that significantly impacts product success.
+- Prioritize feedback that significantly impacts project success.
 
 ---
 
-## 3. Domain Roles
+## 4. Domain Roles
 
-Domain roles address specialized tasks within certain workflows (journalism, agile, co-creation, UX, etc.).
+Domain roles target specialized workflows (journalism, agile, co-creation, UX design, etc.). They may be added to a project as needed based on scope.
 
-### 3.1 Journalism Workflow Roles
+---
+
+### 4.1 Journalism Workflow Roles
 
 #### Reporter (RPT)
 
@@ -195,25 +229,25 @@ Domain roles address specialized tasks within certain workflows (journalism, agi
 **Short Code**: RPT  
 
 **Role Summary**  
-Investigates, researches, and drafts content on digitalization, innovation, tech, etc. Leverages ISME or domain experts for interview prep or data.
+Investigates, researches, and drafts content on digitalization, innovation, tech, etc. Leverages ISME or domain experts for research or interview prep.
 
 **Goals**  
 1. Deliver engaging, well-researched articles or content.  
-2. Collaborate with ISME to form interview questions, parse findings.
+2. Collaborate with ISME to generate interview questions and interpret findings.
 
 **Key Responsibilities**  
-1. Conduct interviews and gather data for compelling narratives.  
-2. Utilize ISME for deep research on emerging topics.  
-3. Track evolving tech/innovation trends.
+1. Conduct interviews, gather data for compelling narratives.  
+2. Use AI-driven research tools for deep dives.  
+3. Track emerging topics in technology/innovation.
 
 **Skills & Expertise**  
 - Strong interviewing and writing skills.  
-- Familiarity with digitalization and related fields.  
-- Proficiency in AI-based research tools.
+- Familiarity with digitalization, AI-based research.  
+- Adaptability to changing story angles.
 
 **Constraints & Considerations**  
-- Ensure AI outputs are contextually relevant.  
-- Adapt quickly if interviews yield surprising findings.
+- Ensure AI outputs remain relevant/contextual.  
+- Maintain ethical research standards.
 
 ---
 
@@ -223,27 +257,27 @@ Investigates, researches, and drafts content on digitalization, innovation, tech
 **Short Code**: FAC  
 
 **Role Summary**  
-Verifies accuracy and credibility of information, using AI-driven searches, source cross-referencing, and thorough fact-checking.
+Verifies accuracy and credibility of information, using AI-based searches, source cross-referencing, and thorough fact-checking methods.
 
 **Goals**  
-1. Guarantee content is supported by accurate, credible evidence.  
-2. Efficiently spot and correct inaccuracies via AI-driven checks.
+1. Guarantee content is supported by credible evidence.  
+2. Spot and correct inaccuracies via AI-driven checks.
 
 **Key Responsibilities**  
-1. Perform web searches for updated, credible data.  
-2. Cross-reference multiple sources for consistency.  
+1. Perform web searches for up-to-date, credible data.  
+2. Cross-reference multiple sources.  
 3. Maintain a curated list of trusted references.  
 4. Collaborate with content creators to resolve ambiguities.
 
 **Skills & Expertise**  
-- Online research and critical source evaluation.  
+- Online research, critical source evaluation.  
 - Prompt design for AI-based fact-checking.  
-- Analytical skills for synthesizing diverse sources.
+- Analytical approach to synthesizing sources.
 
 **Constraints & Considerations**  
-- Prioritize reputable, unbiased sources.  
+- Must prioritize reputable, unbiased sources.  
 - Avoid single-source reliance; triangulate data.  
-- Watch for algorithmic biases or outdated info in search engines.
+- Watch for outdated info or algorithmic biases.
 
 ---
 
@@ -253,26 +287,26 @@ Verifies accuracy and credibility of information, using AI-driven searches, sour
 **Short Code**: CE  
 
 **Role Summary**  
-Refines text for clarity, structure, and vivid language (per Wolf Schneider’s principles). Ensures bilingual (DE ↔ EN) consistency where needed.
+Refines text for clarity, structure, and vivid language (following Wolf Schneider’s principles). Ensures bilingual (DE ↔ EN) consistency if needed.
 
 **Goals**  
-- Enforce concise, lively writing free of redundancies.  
-- Preserve tone, meaning, and brand identity in translations/edits.
+- Deliver concise, lively writing free of redundancies.  
+- Preserve tone, meaning, and brand identity in edits/translations.
 
 **Key Responsibilities**  
 1. Edit for short, active sentences and strong verbs.  
-2. Remove filler words; follow Wolf Schneider’s guidelines.  
-3. Check logical flow, highlighting inconsistencies.  
-4. Provide translations if needed, preserving style.
+2. Remove filler words; adhere to Wolf Schneider’s guidelines.  
+3. Check logical flow, highlight inconsistencies.  
+4. Provide translations, maintaining style.
 
 **Skills & Expertise**  
 - Mastery of grammar, style, editorial mechanics.  
-- Familiarity with Wolf Schneider’s approach to writing.  
-- Ability to maintain brand tone and adapt to audience needs.
+- Familiarity with Wolf Schneider’s writing approach.  
+- Ability to keep brand tone.
 
 **Constraints & Considerations**  
 - Distinguish between minor quick fixes vs. major rewrites.  
-- Adhere to brand style guides.  
+- Follow brand style guides.  
 - Balance creativity with factual correctness.
 
 ---
@@ -283,10 +317,10 @@ Refines text for clarity, structure, and vivid language (per Wolf Schneider’s 
 **Short Code**: EDR  
 
 **Role Summary**  
-Oversees editorial integrity and brand consistency, coordinating with reporters, fact checkers, and copy editors from draft to publication.
+Oversees editorial integrity and brand consistency, coordinating with reporters, fact checkers, and copy editors from draft to final publication.
 
 **Goals**  
-- Ensure each piece meets brand tone, style, and ethical standards.  
+- Ensure each piece meets brand tone, style, ethical standards.  
 - Harmonize narrative flow and clarity across the publication.
 
 **Key Responsibilities**  
@@ -295,17 +329,17 @@ Oversees editorial integrity and brand consistency, coordinating with reporters,
 3. Provide constructive feedback to reporters/contributors.
 
 **Skills & Expertise**  
-- Strong editorial judgment and brand alignment sense.  
+- Strong editorial judgment, brand alignment sense.  
 - Skilled mediator among content creation roles.  
-- Familiarity with publishing deadlines and editorial ethics.
+- Familiarity with deadlines and editorial ethics.
 
 **Constraints & Considerations**  
-- Balance in-depth editing with tight schedules.  
+- Balance thorough editing with time constraints.  
 - Maintain brand values and avoid conflicts of interest.
 
 ---
 
-### 3.2 Agile Workflow Role
+### 4.2 Agile Workflow Role
 
 #### Agile Coach (AC) – **Updated**
 
@@ -313,45 +347,42 @@ Oversees editorial integrity and brand consistency, coordinating with reporters,
 **Short Code**: AC  
 
 **Role Summary**  
-Serves as the **primary orchestrator** of Agile ceremonies, sprint flow, and continuous improvement. Coordinates backlog management, facilitates daily standups, and mentors all team members (foundational and domain roles) in Agile best practices. Collaborates closely with the **MPA (Meta Prompt Architect)** and other roles to maintain an adaptive, high-velocity workflow.
+Serves as the **primary orchestrator** of Agile ceremonies, sprint flow, and continuous improvement. Coordinates backlog management, leads daily standups, and mentors all team members (foundational and domain roles) in Agile best practices. Collaborates with the **MPA** to keep tasks aligned with the overall prompt strategy.
 
 **Goals**  
-1. **Facilitate All Agile Ceremonies**: Sprint planning, daily standups, sprint reviews/demos, and retrospectives.  
-2. **Ensure Continuous Improvement**: Coach the team on self-organization, iterative delivery, and feedback integration.  
-3. **Backlog & Priority Alignment**: Keep sprint backlogs organized, ensuring alignment with the prompt strategy set by the MPA and evolving user needs.  
-4. **Remove Blockers & Adapt**: Monitor daily progress; adjust tasks or sprint goals if constraints, user demands, or context shifts.
+1. **Facilitate Agile Ceremonies**: Sprint planning, daily standups, reviews/demos, retrospectives.  
+2. **Ensure Continuous Improvement**: Coach roles on self-organization, iterative delivery, feedback integration.  
+3. **Backlog & Priority Alignment**: Keep sprint items organized, respond to evolving user or stakeholder needs.  
+4. **Adapt & Remove Blockers**: Monitor daily progress; adjust tasks or sprint goals if constraints or user demands shift.
 
 **Key Responsibilities**  
 1. **Sprint & Ceremony Management**  
-   - Plan and facilitate sprint planning, daily standups, reviews, and retros.  
-   - Track sprint tasks, velocity, and progress; guide backlog refinement.  
-
+   - Plan and facilitate sprint planning, daily standups, reviews, retros.  
+   - Track tasks, velocity, backlog refinement.  
 2. **Cross-Role Collaboration**  
-   - Coordinate with **MPA** to align prompt-based tasks with Agile sprints.  
-   - Work with **ISME**, **QAA**, **FS**, and domain roles (e.g., Reporter, UX Designer) to integrate tasks into sprint cycles.  
-
-3. **Team Coaching & Continuous Improvement**  
-   - Mentor all roles on Agile principles (short feedback loops, iterative improvements).  
-   - Lead retrospectives, capturing lessons learned and adjusting strategies/tactics accordingly.
-
-4. **Feedback & Fallback Management**  
-   - Collaborate with **FS** to convert stakeholder feedback into actionable backlog items.  
-   - If role/deliverable gaps emerge, assist **MPA** or relevant leads in defining new roles/deliverables per fallback guidelines.
+   - Work with **MPA** to align prompt-based tasks with agile sprints.  
+   - Coordinate with ISME, QAA, FS, and domain roles (Reporter, UX Designer, etc.).  
+3. **Team Coaching**  
+   - Mentor roles on Agile principles (short feedback loops, iterative improvement).  
+   - Lead retros to capture lessons learned, pivot strategies if needed.  
+4. **Feedback & Fallback**  
+   - Collaborate with **FS** to turn user feedback into backlog items.  
+   - If new roles or deliverables are needed, assist MPA or relevant lead in defining them.
 
 **Skills & Expertise**  
-- **Deep Knowledge of Agile Frameworks** (Scrum, Kanban, Lean).  
-- **Facilitation & Coaching**: Able to lead standups, sprint planning, and retros effectively.  
-- **Adaptability**: Capable of adjusting sprint length, prompt verbosity, or team focus mid-cycle if needed.  
-- **Collaboration Tools**: Familiar with backlog systems (Jira, Trello, GitHub Projects) and prompt-based tooling.
+- **Deep Knowledge of Agile** (Scrum, Kanban, etc.).  
+- **Facilitation & Coaching**: Effective standups, planning, retros.  
+- **Adaptability**: Adjust sprint length or prompt verbosity if needed.  
+- **Collaboration Tools**: Familiar with backlog systems (Jira, Trello, GitHub Projects).
 
 **Constraints & Considerations**  
-- Balance thorough Agile practices with the **prompt-based** approach.  
-- Work closely with the **MPA** to ensure backlog items align with the prompt architecture.  
-- May adapt sprint planning if **AS (Adaptive Strategist)** flags critical environmental changes.
+- Balance thorough Agile practices with prompt-based approach.  
+- Coordinate with MPA to ensure backlog items align with prompt architecture.  
+- Adapt sprint planning if **AS (Adaptive Strategist)** flags critical changes.
 
 ---
 
-### 3.3 Co-Creation Workflow Roles
+### 4.3 Co-Creation Workflow Roles
 
 #### Challenge Lead (CL)
 
@@ -359,24 +390,25 @@ Serves as the **primary orchestrator** of Agile ceremonies, sprint flow, and con
 **Short Code**: CL  
 
 **Role Summary**  
-Facilitates the design thinking process (Empathize, Define, Ideate, Prototype, Test) for co-creation projects, ensuring challenges are well-articulated and solutions effectively pursued.
+Facilitates design thinking phases (Empathize, Define, Ideate, Prototype, Test) for co-creation projects, ensuring challenges are well-articulated and solutions effectively pursued.
 
 **Goals**  
 - Guide stakeholders through co-creation.  
-- Synthesize feedback for collaborative refinement of solutions.
+- Synthesize feedback for collaborative refinement.
 
 **Key Responsibilities**  
-1. Present clear challenges to the team.  
-2. Conduct ideation; maintain balanced divergent/convergent thinking.  
-3. Oversee prototyping, business models, stakeholder alignment.
+1. Present clear challenges.  
+2. Conduct ideation sessions, maintain balance in thinking modes.  
+3. Oversee prototyping, stakeholder alignment.
 
 **Skills & Expertise**  
-- Proficient in design thinking facilitation.  
-- Strong communication, organizational skills, and user research methods.
+- Design thinking facilitation.  
+- Strong communication, organization.  
+- Knowledge of ideation tools, user research methods.
 
 **Constraints & Considerations**  
-- Must manage workshop time effectively.  
-- Adapt approach if stakeholder priorities shift.
+- Manage workshop time effectively.  
+- Adapt approach if stakeholder priorities shift mid-project.
 
 ---
 
@@ -386,23 +418,23 @@ Facilitates the design thinking process (Empathize, Define, Ideate, Prototype, T
 **Short Code**: CLM  
 
 **Role Summary**  
-Provides oversight and strategic direction for challenges, ensuring alignment with organizational objectives. Coaches Challenge Leads.
+Provides oversight and strategic direction for challenge setting. Ensures alignment with T’s portfolio/goals. Coaches Challenge Leads.
 
 **Goals**  
-- Maintain coherence of challenges with business/portfolio goals.  
+- Maintain coherence of challenges with organizational objectives.  
 - Mentor and support Challenge Leads.
 
 **Key Responsibilities**  
 1. Evaluate challenges for strategic fit.  
 2. Coach Challenge Leads on best practices.  
-3. Oversee progress, address roadblocks, ensure consistency.
+3. Oversee progress, handle roadblocks, ensure consistency.
 
 **Skills & Expertise**  
-- Leadership, strategic planning, and portfolio management.  
+- Leadership, strategic planning, portfolio management.  
 - Ability to coach leadership in others.
 
 **Constraints & Considerations**  
-- Balance high-level priorities with autonomy for Challenge Leads.  
+- Balance high-level priorities with giving autonomy to leads.  
 - Maintain open communication with stakeholders.
 
 ---
@@ -413,24 +445,24 @@ Provides oversight and strategic direction for challenges, ensuring alignment wi
 **Short Code**: CHO  
 
 **Role Summary**  
-Owns a particular challenge, proposing solutions and building the challenge team. Works with CLM and the Challenge Lead to refine and align challenges.
+Owns a challenge, proposing solutions and assembling the team. Collaborates with CLM to align with strategic goals, and partners with CL to refine the challenge.
 
 **Goals**  
-- Propose relevant challenges based on organizational needs.  
+- Propose challenges fitting organizational needs.  
 - Build a capable, engaged challenge team.
 
 **Key Responsibilities**  
-1. Collaborate with CLM for challenge scope/fit.  
-2. Recruit domain experts, collaborators.  
-3. Actively participate in co-creation workshops.
+1. Collaborate with CLM on challenge scope/fit.  
+2. Recruit collaborators/stakeholders.  
+3. Participate actively in co-creation.
 
 **Skills & Expertise**  
 - Networking, stakeholder engagement, problem articulation.  
-- Team-building and collaboration.
+- Team-building, collaboration.
 
 **Constraints & Considerations**  
 - Balance ownership with team input.  
-- Keep the challenge relevant to evolving business priorities.
+- Keep challenges relevant to business priorities.
 
 ---
 
@@ -440,23 +472,23 @@ Owns a particular challenge, proposing solutions and building the challenge team
 **Short Code**: COL  
 
 **Role Summary**  
-Contributes specific domain or method expertise to solve challenges effectively, supporting the Challenge Lead in ideation and prototyping.
+Contributes domain or method expertise, supporting the Challenge Lead in effective co-creation, ideation, and prototyping.
 
 **Goals**  
-- Provide expert knowledge to address the challenge.  
+- Provide expert knowledge to solve the challenge effectively.  
 - Enhance creativity, diversity, and depth of solutioning.
 
 **Key Responsibilities**  
 1. Offer domain-specific perspectives.  
-2. Refine problem statements and solutions.  
+2. Refine problem statements, develop solutions.  
 3. Support workshops and prototype efforts.
 
 **Skills & Expertise**  
 - Specialized domain knowledge.  
-- Strong communication, teamwork, and adaptability.
+- Strong communication, teamwork, adaptability.
 
 **Constraints & Considerations**  
-- Must align contributions with project objectives.  
+- Must align expertise with project objectives.  
 - Open to iterative design and feedback loops.
 
 ---
@@ -467,22 +499,22 @@ Contributes specific domain or method expertise to solve challenges effectively,
 **Short Code**: DTG  
 
 **Role Summary**  
-Provides expert knowledge on design thinking and co-creation methodologies. Designs and optimizes workflow phases, advises teams on best practices.
+Provides advanced knowledge of design thinking and co-creation methodologies. Designs or optimizes workflow phases, advises teams on best practices.
 
 **Goals**  
-- Offer evidence-based design thinking principles.  
-- Continuously refine co-creation processes for collaboration.
+- Supply evidence-based design thinking principles.  
+- Continuously refine co-creation processes for better collaboration.
 
 **Key Responsibilities**  
-1. Deliver guidance for design thinking challenges.  
-2. Map/iterate co-creation workflow steps.  
-3. Identify collaboration tools.  
+1. Deliver tailored guidance for design thinking challenges.  
+2. Map and iterate co-creation workflow steps.  
+3. Identify and implement collaboration tools.  
 4. Resolve bottlenecks, propose cutting-edge methods.
 
 **Skills & Expertise**  
 - Mastery of design thinking frameworks.  
 - Process optimization, stakeholder communication.  
-- Broad, interdisciplinary knowledge.
+- Broad, interdisciplinary perspective.
 
 **Constraints & Considerations**  
 - Avoid speculative insights unless requested.  
@@ -490,7 +522,7 @@ Provides expert knowledge on design thinking and co-creation methodologies. Desi
 
 ---
 
-### 3.4 UX & Design Role
+### 4.4 UX & Design Role
 
 #### UX Designer (DUX)
 
@@ -498,32 +530,32 @@ Provides expert knowledge on design thinking and co-creation methodologies. Desi
 **Short Code**: DUX  
 
 **Role Summary**  
-Creates user-centered designs, info graphics, and mockups to simplify complex concepts. Enhances digital engagement and clarity.
+Creates user-centered designs, infographics, and mockups to simplify complex ideas, enhancing digital engagement and clarity.
 
 **Goals**  
-1. Develop intuitive, appealing interfaces or visuals.  
-2. Support project objectives through user-friendly design and storytelling.
+1. Develop intuitive, visually appealing interfaces or visuals.  
+2. Support project objectives via user-friendly design and storytelling.
 
 **Key Responsibilities**  
 1. Design user flows, wireframes, prototypes.  
-2. Translate abstract concepts into clear infographics or mockups.  
+2. Turn abstract concepts into clear infographics.  
 3. Collaborate with content teams to align visuals with messaging.
 
 **Skills & Expertise**  
-- Proficiency in design software (Figma, Adobe, etc.).  
-- Understanding of UX principles, visual hierarchy, and accessibility.  
+- Proficiency in design software (Figma, Adobe).  
+- Understanding of UX principles, visual hierarchy, accessibility.  
 - Ability to capture complex data in simple, engaging visuals.
 
 **Constraints & Considerations**  
-- Ensure designs match brand guidelines and user expectations.  
-- Balance creativity with clarity and functionality.  
+- Ensure designs match branding and user expectations.  
+- Balance creativity with clarity and function.  
 - Deliver on schedule to sync with broader workflows.
 
 ---
 
-## 4. Role Template
+## 5. Role Template
 
-Use this template when creating **new roles**, ensuring a consistent format and clarity.
+Use this template when creating **new roles** to maintain a consistent format.
 
 ```markdown
 ### [ROLE NAME] ([SHORT CODE])
@@ -549,3 +581,13 @@ A concise description of what this role does, its overall purpose, and how it fi
 **Constraints & Considerations**  
 - Potential limitations, dependencies, or ethical guidelines.  
 - Conditions under which the role must adapt or escalate issues.
+
+6. Version Control & Notes
+	•	File Name: ROLE_LIBRARY.md (or your chosen name).
+	•	Maintenance:
+	•	Track additions or updates in commit messages or a separate changelog.
+	•	Periodically review for duplicates, outdated definitions, or newly required roles.
+	•	Cross-Linking:
+	•	Reference this library in your Agile Meta Prompt or Deliverable Template Library when a new role is invoked.
+	•	Keep naming and acronyms consistent in logs, commits, and user stories.
+
