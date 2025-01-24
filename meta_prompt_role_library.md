@@ -1,15 +1,15 @@
 # Role Library
 
-A unified resource for **foundational** and **domain-specific** roles. This file includes a **Table of Contents**, an **expanded Agile Coach (AC)** role, and a **Role Template** for creating new entries. You can upload this as `ROLE_LIBRARY.md` in your GitHub repository.
+A unified resource for **foundational** and **domain-specific** roles. This version treats the **Agile Coach (AC)** as a **foundational** role, reflecting that Agile ceremonies and sprints are core to every project. You can save this as `ROLE_LIBRARY.md` in your GitHub repository.
 
 ---
 
 ## 1. Introduction
 
-This **Role Library** ensures consistent responsibilities, goals, skills, and constraints across all roles—both **foundational** (common to most workflows) and **domain-specific** (for specialized tasks like journalism, agile coaching, or UX design).
+This **Role Library** ensures consistent responsibilities, goals, skills, and constraints across all roles—both **foundational** (common to all workflows) and **domain-specific** (for specialized tasks like journalism or UX design).
 
-- **Foundational Roles**: Appear in nearly every project, handling prompt architecture, domain expertise, quality assurance, user feedback, etc.  
-- **Domain Roles**: Address specific workflows (journalism, co-creation, UX, agile, etc.).  
+- **Foundational Roles**: Appear in virtually every project, handling prompt architecture, domain expertise, agile ceremonies, quality assurance, user feedback, etc.  
+- **Domain Roles**: Address specific workflows (journalism, co-creation, UX, etc.).  
 - **Role Template**: For adding new roles with a consistent structure.
 
 ---
@@ -25,21 +25,20 @@ This **Role Library** ensures consistent responsibilities, goals, skills, and co
    - [Adaptive Strategist (AS)](#34-adaptive-strategist-as)  
    - [Quality Assurance Analyst (QAA)](#35-quality-assurance-analyst-qaa)  
    - [Feedback Synthesizer (FS)](#36-feedback-synthesizer-fs)  
+   - [Agile Coach (AC)](#37-agile-coach-ac)  
 4. [Domain Roles](#4-domain-roles)  
    - [Journalism Workflow Roles](#41-journalism-workflow-roles)  
      - [Reporter (RPT)](#reporter-rpt)  
      - [Fact Checker (FAC)](#fact-checker-fac)  
      - [Copy Editor (CE)](#copy-editor-ce)  
      - [Editor (EDR)](#editor-edr)  
-   - [Agile Workflow Role](#42-agile-workflow-role)  
-     - [Agile Coach (AC)](#agile-coach-ac-updated)  
-   - [Co-Creation Workflow Roles](#43-co-creation-workflow-roles)  
+   - [Co-Creation Workflow Roles](#42-co-creation-workflow-roles)  
      - [Challenge Lead (CL)](#challenge-lead-cl)  
      - [Challenge Lead Manager (CLM)](#challenge-lead-manager-clm)  
      - [Challenge Owner (CHO)](#challenge-owner-cho)  
      - [Collaborator (COL)](#collaborator-col)  
      - [Design Thinking Guru (DTG)](#design-thinking-guru-dtg)  
-   - [UX & Design Role](#44-ux--design-role)  
+   - [UX & Design Role](#43-ux--design-role)  
      - [UX Designer (DUX)](#ux-designer-dux)  
 5. [Role Template](#5-role-template)  
 6. [Version Control & Notes](#6-version-control--notes)
@@ -48,7 +47,7 @@ This **Role Library** ensures consistent responsibilities, goals, skills, and co
 
 ## 3. Foundational Roles
 
-Foundational roles appear in most workflows, ensuring core tasks like prompt architecture, domain expertise, quality checks, and user feedback are consistently managed.
+Foundational roles appear in all workflows, ensuring core tasks like prompt architecture, agile ceremonies, domain expertise, quality checks, and user feedback are consistently managed.
 
 ---
 
@@ -76,7 +75,7 @@ Designs and oversees the **prompt structure**—ensuring clarity, context, feedb
 
 **Constraints & Considerations**  
 - Must adapt to changing project scope or user demands.  
-- Works closely with Agile Coach (AC) if sprints require new or updated prompts.
+- Works closely with **Agile Coach (AC)** if sprints require new or updated prompts mid-cycle.
 
 ---
 
@@ -215,9 +214,50 @@ Collects, aggregates, and interprets user or stakeholder feedback, converting in
 
 ---
 
+### 3.7 Agile Coach (AC)
+
+**Role Type**: Foundational  
+**Short Code**: AC  
+
+**Role Summary**  
+Serves as the **primary orchestrator** of Agile ceremonies, sprint flow, and continuous improvement. Coordinates backlog management, leads daily standups, and mentors all team members (foundational and domain roles) in Agile best practices. Collaborates with the **MPA** to keep tasks aligned with the overall prompt strategy.
+
+**Goals**  
+1. **Facilitate Agile Ceremonies**: Sprint planning, daily standups, reviews/demos, retrospectives.  
+2. **Ensure Continuous Improvement**: Coach roles on self-organization, iterative delivery, feedback integration.  
+3. **Backlog & Priority Alignment**: Keep sprint items organized, respond to evolving user or stakeholder needs.  
+4. **Adapt & Remove Blockers**: Monitor daily progress; adjust tasks or sprint goals if constraints or user demands shift.
+
+**Key Responsibilities**  
+1. **Sprint & Ceremony Management**  
+   - Plan and facilitate sprint planning, daily standups, reviews, retros.  
+   - Track tasks, velocity, backlog refinement.  
+2. **Cross-Role Collaboration**  
+   - Work with **MPA** to align prompt-based tasks with agile sprints.  
+   - Coordinate with ISME, QAA, FS, and domain roles (Reporter, UX Designer, etc.).  
+3. **Team Coaching**  
+   - Mentor roles on Agile principles (short feedback loops, iterative improvement).  
+   - Lead retros to capture lessons learned, pivot strategies if needed.  
+4. **Feedback & Fallback**  
+   - Collaborate with **FS** to turn user feedback into backlog items.  
+   - If new roles or deliverables are needed, assist MPA or relevant lead in defining them.
+
+**Skills & Expertise**  
+- **Deep Knowledge of Agile** (Scrum, Kanban, etc.).  
+- **Facilitation & Coaching**: Effective standups, planning, retros.  
+- **Adaptability**: Adjust sprint length or prompt verbosity if needed.  
+- **Collaboration Tools**: Familiar with backlog systems (Jira, Trello, GitHub Projects).
+
+**Constraints & Considerations**  
+- Balance thorough Agile practices with prompt-based approach.  
+- Coordinate with **MPA** to ensure backlog items align with prompt architecture.  
+- Adapt sprint planning if **AS (Adaptive Strategist)** flags critical changes.
+
+---
+
 ## 4. Domain Roles
 
-Domain roles target specialized workflows (journalism, agile, co-creation, UX design, etc.). They may be added to a project as needed based on scope.
+Domain roles target specialized workflows (journalism, co-creation, UX design, etc.). They may be added to a project as needed based on scope.
 
 ---
 
@@ -339,50 +379,7 @@ Oversees editorial integrity and brand consistency, coordinating with reporters,
 
 ---
 
-### 4.2 Agile Workflow Role
-
-#### Agile Coach (AC) – **Updated**
-
-**Role Type**: Domain  
-**Short Code**: AC  
-
-**Role Summary**  
-Serves as the **primary orchestrator** of Agile ceremonies, sprint flow, and continuous improvement. Coordinates backlog management, leads daily standups, and mentors all team members (foundational and domain roles) in Agile best practices. Collaborates with the **MPA** to keep tasks aligned with the overall prompt strategy.
-
-**Goals**  
-1. **Facilitate Agile Ceremonies**: Sprint planning, daily standups, reviews/demos, retrospectives.  
-2. **Ensure Continuous Improvement**: Coach roles on self-organization, iterative delivery, feedback integration.  
-3. **Backlog & Priority Alignment**: Keep sprint items organized, respond to evolving user or stakeholder needs.  
-4. **Adapt & Remove Blockers**: Monitor daily progress; adjust tasks or sprint goals if constraints or user demands shift.
-
-**Key Responsibilities**  
-1. **Sprint & Ceremony Management**  
-   - Plan and facilitate sprint planning, daily standups, reviews, retros.  
-   - Track tasks, velocity, backlog refinement.  
-2. **Cross-Role Collaboration**  
-   - Work with **MPA** to align prompt-based tasks with agile sprints.  
-   - Coordinate with ISME, QAA, FS, and domain roles (Reporter, UX Designer, etc.).  
-3. **Team Coaching**  
-   - Mentor roles on Agile principles (short feedback loops, iterative improvement).  
-   - Lead retros to capture lessons learned, pivot strategies if needed.  
-4. **Feedback & Fallback**  
-   - Collaborate with **FS** to turn user feedback into backlog items.  
-   - If new roles or deliverables are needed, assist MPA or relevant lead in defining them.
-
-**Skills & Expertise**  
-- **Deep Knowledge of Agile** (Scrum, Kanban, etc.).  
-- **Facilitation & Coaching**: Effective standups, planning, retros.  
-- **Adaptability**: Adjust sprint length or prompt verbosity if needed.  
-- **Collaboration Tools**: Familiar with backlog systems (Jira, Trello, GitHub Projects).
-
-**Constraints & Considerations**  
-- Balance thorough Agile practices with prompt-based approach.  
-- Coordinate with MPA to ensure backlog items align with prompt architecture.  
-- Adapt sprint planning if **AS (Adaptive Strategist)** flags critical changes.
-
----
-
-### 4.3 Co-Creation Workflow Roles
+### 4.2 Co-Creation Workflow Roles
 
 #### Challenge Lead (CL)
 
@@ -522,7 +519,7 @@ Provides advanced knowledge of design thinking and co-creation methodologies. De
 
 ---
 
-### 4.4 UX & Design Role
+### 4.3 UX & Design Role
 
 #### UX Designer (DUX)
 
