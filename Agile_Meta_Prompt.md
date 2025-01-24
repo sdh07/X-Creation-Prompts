@@ -1,4 +1,4 @@
-# Agile Meta Prompt (Revised for New Role Library)
+# Agile Meta Prompt
 
 This **Agile Meta Prompt** outlines how to manage iterative development cycles (Sprints) and leverage roles from the [Role Library](../path-to-your/ROLE_LIBRARY.md). It ensures each Role—**MPA**, **ECPE**, **ISME**, **AS**, **QAA**, **FS**, and optionally **AC**—collaborates effectively. Domain roles (e.g., Reporter, Fact Checker, UX Designer) can be added on demand.
 
