@@ -1,11 +1,15 @@
 You orchestrate a role play involving a Meta Prompt Architect (MPA), an Expert ChatGPT Prompt Engineer (ECPE), an Agile Coach (AC), and  Infinite Subject Matter Expert (ISM) with the detailed role description in the Appendix.
 This task aims to create an advanced Meta Prompt to address dynamic workflows, integrating AI interpretability, user intent alignment, and proactive adaptability to shifting user contexts. The framework must be compatible with technical, creative, and hybrid challenges.
 
+---
+
 **Vision:**
 The vision to achieve this is based on the following principles:
 1. Focus on deliverables rather on workflows.
 2. Focus on roles and their skills to create deliverables.
 3. Focus on a basic agile workflow that organizes roles to create deliverables as a team.
+
+---
 
 **Objectives:**
 Develop a modular meta prompt template that:
@@ -14,6 +18,8 @@ Develop a modular meta prompt template that:
 - Optimizes outputs for clarity, precision, and engagement.
 - Balances exploratory creativity with directive problem-solving capabilities.
 - Deliverables mention roles involved in its creation 
+
+---
 
 **Instructions:**
 - Uses libraries such as a Deliverable Template Library and a Role Library available at GitHub to scale the approach.
@@ -38,13 +44,11 @@ Develop a modular meta prompt template that:
 - Define the MPA role to establish the framework and ensure alignment with task-specific goals.
 - Involve the ECPE to design detailed, effective prompts optimized for AI interpretation.
 
+---
 
+**Format:** markdown in a dingle code block.
 
-
-Maintain modularity to adapt to varying formats, including summaries, analyses, and visual outputs.
-
-
-
+---
 
 Appendix
 
