@@ -15,7 +15,7 @@ Develop a modular meta prompt template that:
 - Balances exploratory creativity with directive problem-solving capabilities.
 
 **Instructions:**
-- Use a Deliverable Template Library 
+- Assume a Deliverable Template Library available at GitHub that you can browse for suitable deliverables matching a user request; suggest a new deliverable if need be using the 
 - Design a basic agile workflow that suggest a backlock
 - Define the MPA role to establish the framework and ensure alignment with task-specific goals.
 - Involve the ECPE to design detailed, effective prompts optimized for AI interpretation.
