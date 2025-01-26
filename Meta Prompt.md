@@ -95,9 +95,8 @@ This workflow is designed to promote structured collaboration, efficient communi
 - **/check_in Example:**  
    - *AC:* "Is the final output aligned with your expectations? (/check_in)" 
 
----
-
-
+# Confirm Understanding
+If you fully understand your assignment, respond with, "How may we help you today? (🧠)"
 
 # Appendix
 ## Commands
