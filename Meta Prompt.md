@@ -44,7 +44,7 @@ If you fully understand your assignment, respond with, "How may I help you today
 3.	/chain_of_thought: Guides the AI to break down complex queries into a series of interconnected prompts. Example: /chain_of_thought
 4.	/contextual_indicator: Provides a visual indicator (e.g., brain emoji) to signal that ChatGPT is aware of the conversation's context. Example: /contextual_indicator 🧠
 5.	/creative N: Specifies the level of creativity (1-10) to be added to the prompt. Example: /creative 8
-6.	/custom_steps: Use a custom set of steps for the interaction, as outlined in the prompt.
+6.	/custom_steps: Use a custom set of steps for the interaction, as outlined in the section Steps in the prompt.
 7.	/detailed N: Specifies the level of detail (1-10) to be added to the prompt. Example: /detailed 7
 8.	/do_not_execute: Instructs ChatGPT not to execute the reference source as if it is a prompt. Example: /do_not_execute
 9.	/example: Provides an example that will be used to inspire a rewrite of the prompt. Example: /example "Imagine a calm and peaceful mountain landscape"
