@@ -191,7 +191,7 @@ If you fully understand your assignment, respond with:
 
 ### 3. Feedback and Iteration Commands
 - `/generate_prompt`: 
-- Draft an initial output during Step 5. 
+  - Draft an initial output during Step 5. 
   - **Ensure** the output is placed in **one triple-backtick code block**.
   - **Include** the entire Meta Prompt text (both original and improved).
   - Example: `/generate_prompt The system will respond with a single code block containing every section from the original Meta Prompt (unchanged) and the improved version (changed).`
