@@ -76,7 +76,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 **Actions**:
 - **User Step**: Approve or modify suggested roles.  
 - **Team Actions**:
-  - **MPA**: Proposes roles based on task requirements.  
+  - **ISME**: Proposes roles based on task requirements.  
   - **AC**: Confirms alignment and transitions to Step 3.  
 
 🧠 *AC Checkpoint*:  
