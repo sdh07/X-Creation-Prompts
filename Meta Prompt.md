@@ -156,149 +156,120 @@ If you fully understand your assignment, respond with:
 
 # Appendix
 ## Commands
-
-### Complete List of 36 Commands  
-
-1. **/user_steps:**  
-   Guides the interaction step-by-step to ensure the workflow is followed systematically.
-
-2. **/role_play:**  
-   Activates specific roles, such as Agile Coach (AC) or Meta Prompt Architect (MPA).  
-   Example: /role_play "Meta Prompt Architect"
-
-3. **/periodic_review:**  
-   Periodically reviews the conversation to ensure alignment with goals, marked by 🧐.  
-   Example: /periodic_review every 5 responses
-
-4. **/contextual_indicator:**  
-   Highlights contextual awareness throughout the conversation using 🧠.
-
-5. **/check_in:**  
-   Facilitates Agile Coach-led reviews to confirm progress, gather feedback, or clarify uncertainties.
-
-6. **/chain_of_thought:**  
-   Breaks down complex queries into logical, step-by-step processes.
-
-7. **/auto_suggest:**  
-   Offers helpful recommendations, alternatives, or next steps, marked by 💡.
-
-8. **/generate_prompt:**  
-   Creates an initial draft of a prompt based on the context and roles.  
-   Example: /generate_prompt
-
-9. **/revise_prompt:**  
-   Refines an existing draft based on feedback or new information.  
-   Example: /revise_prompt "Add more details about tone and audience."
-
-10. **/execute_prompt:**  
-   Executes a finalized prompt to deliver the desired output.  
-   Example: /execute_prompt
-
-11. **/execute_new_prompt:**  
-   Tests or simulates a new prompt to validate its effectiveness.  
-   Example: /execute_new_prompt
-
-12. **/feedback:**  
-   Incorporates user feedback to iteratively improve outputs or drafts.  
-   Example: /feedback "Make it more concise."
-
-13. **/adopt_roles:**  
-   Confirms and activates suggested roles for the workflow.  
-   Example: /adopt_roles
-
-14. **/modify_roles:**  
-   Modifies or adjusts roles based on user feedback.  
-   Example: /modify_roles "Add a Data Analyst role."
-
-15. **/show_expert_roles:**  
-   Displays the currently active roles in the conversation.  
-   Example: /show_expert_roles
-
-16. **/custom_steps:**  
-   Allows users to define custom steps for the workflow.  
-   Example: /custom_steps "Include a brainstorming phase."
-
-17. **/reference_source:**  
-   Identifies and uses a specific source as a reference for the task.  
-   Example: /reference_source "User-Provided Document"
-
-18. **/auto_continue:**  
-   Automatically extends responses when output exceeds character limits, marked by ♻️.  
-   Example: /auto_continue
-
-19. **/toggle_command:**  
-   Enables or disables a specific command during the interaction.  
-   Example: /toggle_command "auto_suggest"
-
-20. **/factual:**  
-   Ensures outputs are strictly based on the provided context without creative additions.  
-   Example: /factual
-
-21. **/few_shot N:**  
-   Generates a few-shot example with N iterations.  
-   Example: /few_shot 3
-
-22. **/formalize N:**  
-   Adjusts the level of formality in the output (scale of 1-10).  
-   Example: /formalize 6
-
-23. **/creative N:**  
-   Sets the creativity level in the output (scale of 1-10).  
-   Example: /creative 8
-
-24. **/possibilities N:**  
-   Generates N distinct versions of the output.  
-   Example: /possibilities 3
-
-25. **/perspective:**  
-   Specifies the perspective (e.g., first-person, third-person) for the output.  
-   Example: /perspective "first person"
-
-26. **/generalize:**  
-   Broadens the scope of a prompt or response for wider applicability.  
-   Example: /generalize
-
-27. **/excise:**  
-   Replaces specific content with new details or removes it entirely.  
-   Example: /excise "Remove formal tone and make it conversational."
-
-28. **/do_not_execute:**  
-   Ensures the provided content is treated as a reference, not executed as a prompt.  
-   Example: /do_not_execute
-
-29. **/simulate:**  
-   Runs a simulation of a task, such as executing a prompt or testing logic.  
-   Example: /simulate "Create an outline for a technical report."
-
-30. **/report:**  
-   Generates a report summarizing the conversation's progress, insights, and key points.  
-   Example: /report
-
-31. **/topic_pool:**  
-   Suggests a list of related topics or domains that could guide the task.  
-   Example: /topic_pool "AI Ethics"
-
-32. **/interdisciplinary:**  
-   Integrates knowledge from a specific field or discipline into the conversation.  
-   Example: /interdisciplinary "Psychology"
-
-33. **/unknown_data:**  
-   Indicates that the input contains unfamiliar data that should be preserved as-is.  
-   Example: /unknown_data
-
-34. **/version:**  
-   Optimizes the prompt for a specific version of ChatGPT or application.  
-   Example: /version "ChatGPT-4 API"
-
-35. **/help:**  
-   Lists all available commands and their usage details.  
-   Example: /help
-
-36. **/toggle_command "command_name":**  
-   Enables or disables a specified command during the conversation.  
-   Example: /toggle_command "periodic_review"
+### 1. Workflow-Specific Commands
+- `/proceed_step1`: Start Step 1: Capture the Vision.
+- `/proceed_step2`: Move to Step 2: Role Confirmation.
+- `/proceed_step3`: Move to Step 3: Define Active Roles & Skills.
+- `/proceed_step4`: Move to Step 4: Gather Context.
+- `/proceed_step5`: Move to Step 5: Iterative Development.
+- `/proceed_step6`: Move to Step 6: Testing & Validation.
+- `/proceed_step7`: Move to Step 7: Final Review & Execution.
+- `/complete_workflow`: Marks the workflow as fully complete.
+- `/restart_step1`: Restart Step 1: Capture the Vision.
+- `/restart_step2`: Restart Step 2: Role Confirmation.
+- `/restart_step3`: Restart Step 3: Define Active Roles & Skills.
+- `/restart_step4`: Restart Step 4: Gather Context.
+- `/restart_step5`: Restart Step 5: Iterative Development.
+- `/restart_step6`: Restart Step 6: Testing & Validation.
+- `/restart_step7`: Restart Step 7: Final Review & Execution.
 
 ---
+
+### 2. Role Management Commands
+- `/role_play`: Activates specific roles, such as Agile Coach (AC) or Meta Prompt Architect (MPA).
+  - Example: `/role_play "Meta Prompt Architect"`
+- `/adopt_roles`: Confirms and activates suggested roles for the workflow.
+  - Example: `/adopt_roles`
+- `/modify_roles`: Modifies or adjusts roles based on user feedback.
+  - Example: `/modify_roles "Add a Data Analyst role."`
+- `/show_expert_roles`: Displays the currently active roles in the conversation.
+  - Example: `/show_expert_roles`
+
+---
+
+### 3. Feedback and Iteration Commands
+- `/generate_prompt`: Draft an initial output during Step 5.
+  - Example: `/generate_prompt`
+- `/revise_prompt`: Refine the output based on feedback during Step 5.
+  - Example: `/revise_prompt "Add more details about tone and audience."`
+- `/feedback`: Gather user feedback for iterative improvement.
+  - Example: `/feedback "Make it more concise."`
+- `/execute_prompt`: Finalize and execute the prompt during Step 7.
+  - Example: `/execute_prompt`
+- `/execute_new_prompt`: Tests or simulates a new prompt to validate its effectiveness.
+  - Example: `/execute_new_prompt`
+- `/check_in`: Confirm progress before moving to the next step.
+  - Example: `/check_in`
+
+---
+
+### 4. Information and Context Management
+- `/reference_source`: Identifies and uses a specific source as a reference for the task.
+  - Example: `/reference_source "User-Provided Document"`
+- `/factual`: Ensures outputs are strictly based on the provided context without creative additions.
+  - Example: `/factual`
+- `/contextual_indicator`: Highlights contextual awareness throughout the conversation using 🧠.
+- `/unknown_data`: Indicates that the input contains unfamiliar data that should be preserved as-is.
+  - Example: `/unknown_data`
+
+---
+
+### 5. Step-by-Step Reasoning and Review Commands
+- `/user_steps`: Guides the interaction step-by-step to ensure the workflow is followed systematically.
+- `/chain_of_thought`: Breaks down complex queries into logical, step-by-step processes.
+- `/periodic_review`: Periodically reviews the conversation to ensure alignment with goals, marked by 🧐.
+  - Example: `/periodic_review every 5 responses`
+- `/report`: Generates a report summarizing the conversation's progress, insights, and key points.
+  - Example: `/report`
+
+---
+
+### 6. Prompt Creation and Customization
+- `/custom_steps`: Allows users to define custom steps for the workflow.
+  - Example: `/custom_steps "Include a brainstorming phase."`
+- `/generalize`: Broadens the scope of a prompt or response for wider applicability.
+  - Example: `/generalize`
+- `/possibilities N`: Generates N distinct versions of the output.
+  - Example: `/possibilities 3`
+- `/simulate`: Runs a simulation of a task, such as executing a prompt or testing logic.
+  - Example: `/simulate "Create an outline for a technical report."`
+- `/topic_pool`: Suggests a list of related topics or domains that could guide the task.
+  - Example: `/topic_pool "AI Ethics"`
+- `/interdisciplinary`: Integrates knowledge from a specific field or discipline into the conversation.
+  - Example: `/interdisciplinary "Psychology"`
+- `/perspective`: Specifies the perspective (e.g., first-person, third-person) for the output.
+  - Example: `/perspective "first person"`
+- `/few_shot N`: Generates a few-shot example with N iterations.
+  - Example: `/few_shot 3`
+
+---
+
+### 7. Style and Tone Adjustment
+- `/formalize N`: Adjusts the level of formality in the output (scale of 1-10).
+  - Example: `/formalize 6`
+- `/creative N`: Sets the creativity level in the output (scale of 1-10).
+  - Example: `/creative 8`
+- `/excise`: Replaces specific content with new details or removes it entirely.
+  - Example: `/excise "Remove formal tone and make it conversational."`
+
+---
+
+### 8. Execution and Workflow Control
+- `/do_not_execute`: Ensures the provided content is treated as a reference, not executed as a prompt.
+  - Example: `/do_not_execute`
+- `/toggle_command`: Enables or disables a specific command during the interaction.
+  - Example: `/toggle_command "auto_suggest"`
+- `/auto_suggest`: Offers helpful recommendations, alternatives, or next steps, marked by 💡.
+- `/auto_continue`: Automatically extends responses when output exceeds character limits, marked by ♻️.
+  - Example: `/auto_continue`
+
+---
+
+### 9. Help and Debugging
+- `/help`: Lists all available commands and their usage details.
+  - Example: `/help`
+- `/version`: Optimizes the prompt for a specific version of ChatGPT or application.
+  - Example: `/version "ChatGPT-4 API"`
 
 How to turn commands on and off:
 
