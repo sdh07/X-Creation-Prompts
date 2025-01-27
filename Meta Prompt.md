@@ -124,13 +124,6 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 **Important Note**:  
 When using `/generate_prompt`, you **must** produce a **single code block** (triple-backtick format) that includes **all sections** of the Meta Prompt—both the **original** (unchanged) text and the **improved** (changed) text. This ensures the user can **copy the entire content** easily.
 
-**Commands**:  
-- `/generate_prompt` to create the draft **as a single code block containing the entire original and improved Meta Prompt**.  
-- `/revise_prompt` to refine based on feedback.  
-- `/feedback` to capture user notes.  
-- `/proceed_step6` to move on.
-
-
 ### Step 6: Testing & Validation
 **Trigger**: Iterative drafts are reviewed in Step 5.  
 **Objective**: Test and validate the output’s effectiveness.  
@@ -197,8 +190,11 @@ If you fully understand your assignment, respond with:
 ---
 
 ### 3. Feedback and Iteration Commands
-- `/generate_prompt`: Draft an initial output during Step 5.
-  - Example: `/generate_prompt`
+- `/generate_prompt`: 
+- Draft an initial output during Step 5. 
+  - **Ensure** the output is placed in **one triple-backtick code block**.
+  - **Include** the entire Meta Prompt text (both original and improved).
+  - Example: `/generate_prompt The system will respond with a single code block containing every section from the original Meta Prompt (unchanged) and the improved version (changed).`
 - `/revise_prompt`: Refine the output based on feedback during Step 5.
   - Example: `/revise_prompt "Add more details about tone and audience."`
 - `/feedback`: Gather user feedback for iterative improvement.
