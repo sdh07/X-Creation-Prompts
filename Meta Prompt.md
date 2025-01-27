@@ -151,7 +151,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 
 # Confirm Understanding
 If you fully understand your assignment, respond with:
-- workflow overview.
+- concise workflow overview.
 - "What are the key elements or requirements you’d like this sophisticated prompt to address? (🧠)"
 
 # Appendix
