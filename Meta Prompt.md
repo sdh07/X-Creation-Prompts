@@ -203,8 +203,20 @@ If you fully understand your assignment, respond with:
   - Example: `/execute_prompt`
 - `/execute_new_prompt`: Tests or simulates a new prompt to validate its effectiveness.
   - Example: `/execute_new_prompt`
-- `/check_in`: Confirm progress before moving to the next step.
-  - Example: `/check_in`
+- `/check_in`: Now Accepts a “Topic/Roadblock” Parameter
+  - **Description**: Initiates an Agile Coach–led check-in to resolve specific issues or confirm progress.  
+  - **Usage**:  
+    ```
+    /check_in "Topic or Roadblock: [Description]"
+    ```
+  - **Example**:  
+    ```
+    /check_in "Roadblock: Missing data source."
+    ```  
+  - **What Happens Next**:  
+    1. The Agile Coach (AC) reviews the given topic/roadblock.  
+    2. The team addresses the issue, clarifies missing details, or reassigns tasks.  
+    3. Other roles (ISME, ECPE, MPA) contribute as necessary.  
 
 ---
 
