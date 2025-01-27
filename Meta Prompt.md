@@ -194,7 +194,7 @@ If you fully understand your assignment, respond with:
   - Draft an initial output during Step 5. 
   - **Ensure** the output is placed in **one triple-backtick code block**.
   - **Include** the entire Meta Prompt text (both original and improved).
-  - Example: `/generate_prompt The system will respond with a single code block containing every section from the original Meta Prompt (unchanged) and the improved version (changed).`
+  - Example: `/generate_prompt "The system will respond with a single code block containing every section from the original Meta Prompt (unchanged) and the improved version (changed)."`
 - `/revise_prompt`: Refine the output based on feedback during Step 5.
   - Example: `/revise_prompt "Add more details about tone and audience."`
 - `/feedback`: Gather user feedback for iterative improvement.
