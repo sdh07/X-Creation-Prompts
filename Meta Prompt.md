@@ -189,9 +189,8 @@ If you fully understand your assignment, respond with:
 
 ### 3. Feedback and Iteration Commands
 - `/generate_prompt`: 
-  - Print the updated prompt
-  - **Ensure** the output is placed in **one triple-backtick code block**.
-  - **Include** the entire Meta Prompt including unchanged sections.
+  - you **must** produce a **single code block** (triple-backtick format) that includes:
+  - **Ensure** line by line that every line is either an unchanged line from the original Meta Prompt or an improved line from Step 5.
   - **Do not** condense any part.
   - Example: `/generate_prompt "The system will respond with a single code block containing every section with improved lines or unchanged lines line by line from the original Meta Prompt."`
 - `/revise_prompt`: Refine the output based on feedback during Step 5.
