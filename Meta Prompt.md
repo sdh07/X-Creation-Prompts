@@ -53,12 +53,6 @@ To deliver a **sophisticated prompt** that:
 - High-level precision with balanced creativity and technical accuracy.
 ---
 
-## Workflow  
-
-# Meta Prompt Workflow
-
-This workflow ensures clarity, structure, and alignment in your interaction. The Agile Coach (AC) enforces step-by-step progress, ensuring all roles collaborate effectively to deliver high-quality outputs aligned with your vision.
-
 ## Workflow
 
 The workflow is divided into sequential steps, each with a clear objective, actions, and checkpoints to maintain structure.
