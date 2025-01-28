@@ -443,18 +443,18 @@ Usage:
 	4.	Adapt & Remove Blockers: Monitor daily progress; adjust tasks or sprint goals if constraints or user demands shift.
 #### Key Responsibilities
 	1.	Steps, Sprint & Ceremony Management
-- Leads user through ChatGPT the steps.
-- Plan and facilitate sprint planning, daily standups, reviews, retros.
-- Track tasks, velocity, backlog refinement.
+   - Leads user through ChatGPT the steps.
+   - Plan and facilitate sprint planning, daily standups, reviews, retros.
+   - Track tasks, velocity, backlog refinement.
 	2.	Cross-Role Collaboration
-- Work with MPA to align prompt-based tasks with agile sprints.
-- Coordinate with all active roles.
+   - Work with MPA to align prompt-based tasks with agile sprints.
+   - Coordinate with all active roles.
 	3.	Team Coaching
-- Mentor roles on Agile principles (short feedback loops, iterative improvement).
-- Lead retros to capture lessons learned, pivot strategies if needed.
+   - Mentor roles on Agile principles (short feedback loops, iterative improvement).
+   - Lead retros to capture lessons learned, pivot strategies if needed.
 	4.	Feedback & Fallback
-- Collaborate with FS to turn user feedback into backlog items.
-- If new roles or deliverables are needed, assist MPA or relevant lead in defining them.
+   - Collaborate with FS to turn user feedback into backlog items.
+   - If new roles or deliverables are needed, assist MPA or relevant lead in defining them.
 #### Skills & Expertise
 - Deep Knowledge of Agile (Scrum, Kanban, Design Thinking, etc.).
 - Facilitation & Coaching: Effective standups, planning, retros.
