@@ -260,6 +260,10 @@ Usage:
    ## Commands
    ### 1. Workflow-Specific Commands
    [List of all commands.]
+   ### 2. Role Management Commands
+   [List of all commands.]
+   ### 3. Feedback and Iteration Commands
+   [List of all commands.]
    ## Roles
    ### Master Prompt Architect (MPA)
    [Full role details here.]
