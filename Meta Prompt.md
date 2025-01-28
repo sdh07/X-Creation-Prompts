@@ -120,6 +120,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 
 🧠 *AC Checkpoint*:  
 - *AC*: "Is this draft meeting your expectations?"
+- **Command to Transition**: `/proceed_step6`  
 
 
 ### Step 6: Testing & Validation
