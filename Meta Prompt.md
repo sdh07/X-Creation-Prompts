@@ -352,7 +352,7 @@ Usage:
 - **Integration**: Roles defined using this template are embedded within the workflow for clarity and modularity.
 - **Customization**: Each project can adapt the template by refining specific details of goals, responsibilities, and constraints.
 - **Collaboration**: Active roles align responsibilities for seamless teamwork.
-#### Role Name (aronym):
+#### Role Name (Short Code):
 - **Role Type**: [Foundational/Domain-Specific/Supportive]
 - **Short Code**: [Unique identifier, e.g., "MPA" for Meta Prompt Architect]
 
