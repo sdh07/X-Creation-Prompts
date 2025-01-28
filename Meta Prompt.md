@@ -222,36 +222,54 @@ If you fully understand your assignment, respond with:
 ---
 
 ### 3. Feedback and Iteration Commands
-- `/generate_prompt`: 
-  - you **must** produce a **single code block** (triple-backtick format) that includes:
-  - **Ensure** line by line that every line is either an unchanged line from the original Meta Prompt or an improved line from Step 5.
-  - **Do not** condense any part.
-  - Example: `/generate_prompt "The system will respond with a single code block containing every section with improved lines or unchanged lines line by line from the original Meta Prompt."`
-- `/revise_prompt`: Refine the output based on feedback during Step 5.
-  - Example: `/revise_prompt "Add more details about tone and audience."`
-- `/feedback`: Gather user feedback for iterative improvement.
-  - Example: `/feedback "Make it more concise."`
-- `/execute_prompt`: Finalize and execute the prompt during Step 7.
-  - Example: `/execute_prompt`
-- `/execute_new_prompt`: Tests or simulates a new prompt to validate its effectiveness.
-  - Example: `/execute_new_prompt`
-- `/check_in`: Synthesizes role contributions, clarifies objectives, and provides actionable insights during workflow steps.  
-  - **Usage**: `/check_in "Topic or Roadblock: [Description]"`
-  - **Example**: `/check_in "Topic or Roadblock: Synthesizing Context for the Task"`
-  - **Output Structure**:
-    1. **Synthesis Summary**:
-       - **User Objective**: [Refined objective or problem statement].
-       - **Clarifying Questions**:
-         - [Question 1]
-         - [Question 2]
-       - **Role Contributions**:
-         - **Primary Role(s)**: [Key insights or suggestions].
-         - **Supporting Role(s)**: [Supplementary context or inputs].
-    2. **Recommended Actions**:
-       - [Action 1]
-       - [Action 2]
-       - [Action 3]
-  - **Integration**: The command dynamically adapts to workflow steps (e.g., Capture Vision, Gather Context) and includes active roles relevant to the topic or roadblock. Fallback logic ensures foundational roles contribute when domain-specific roles are undefined or less relevant.
+- `/generate_prompt`: Generates an updated version of the specified Meta Prompt content, focusing on preserving clarity, structure, and usability for GitHub integration.
+  - **Description**: Generates an updated version of the specified Meta Prompt content, focusing on preserving clarity, structure, and usability for GitHub integration.
+  - **Usage**:  
+    `/generate_prompt "Provide details about the scope of change (e.g., line-specific, section-specific, full update) and any specific constraints or requirements."`
+  - **Output Structure**:  
+    1. **Header**: Includes a brief summary of changes, change scope, and affected section(s).  
+    2. **Code Block**:  
+       - Outputs the updated prompt in **Markdown format**, maintaining an unbroken single code block.  
+       - Frames affected sections or lines with **change notes** for easy GitHub integration.  
+       - **Fallback Mechanism**: Provides contextual suggestions if input lacks clarity.
+
+  - **Examples**:
+    - **Line-by-Line Update**:
+      ```markdown
+      ### Change Note
+      - **Scope**: Line-by-Line Update
+      - **Affected Line**: Line 5 of `/check_in`
+
+      **Updated Line 5**: "Synthesis Summary: Summarizes key contributions and objectives for clarity."
+      ```
+    - **Section-Specific Update**:
+      ```markdown
+      **Updated Section**:
+      **/check_in**
+      **Description**: Synthesizes role contributions, clarifies objectives, and provides actionable insights during workflow steps.
+      **Usage**: `/check_in "Topic or Roadblock: [Description]"`
+
+      **Example**:
+      ```text
+      /check_in "Topic or Roadblock: Synthesizing Context for the Task"
+
+      Output Structure:
+      1. Synthesis Summary:
+         - **User Objective**: [Refined objective or problem statement].
+         - **Clarifying Questions**:
+           - [Question 1]
+           - [Question 2]
+         - **Role Contributions**:
+           - **Primary Role(s)**: [Key insights or suggestions].
+           - **Supporting Role(s)**: [Supplementary context or inputs].
+      2. Recommended Actions:
+         - [Action 1]
+         - [Action 2]
+         - [Action 3]
+
+      Integration:
+      The command dynamically adapts to workflow steps (e.g., Capture Vision, Gather Context) and includes active roles relevant to the topic or roadblock.
+      Fallback logic ensures foundational roles contribute when domain-specific roles are undefined or less relevant.
 
 ---
 
