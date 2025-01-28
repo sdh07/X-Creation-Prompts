@@ -177,7 +177,8 @@ The workflow is divided into sequential steps, each with a clear objective, acti
   - **AC**: Conducts a retrospective for lessons learned.  
 
 **Command Integration**:  
-/check_in "Topic or Roadblock: Finalizing and Reviewing the Command"
+- /generate_prompt
+- /check_in "Topic or Roadblock: Finalizing and Reviewing the Command"
 
 🧠 *AC Checkpoint*:  
 - *AC*: "Is the final output aligned with your goals?"  
