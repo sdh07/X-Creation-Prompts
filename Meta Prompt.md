@@ -223,54 +223,52 @@ If you fully understand your assignment, respond with:
 ---
 
 ### 3. Feedback and Iteration Commands
-- `/generate_prompt`: Generates an updated version of the specified Meta Prompt content, focusing on preserving clarity, structure, and usability for GitHub integration.
-  - **Description**: Generates an updated version of the specified Meta Prompt content, focusing on preserving clarity, structure, and usability for GitHub integration.
-  - **Usage**:  
-    `/generate_prompt "Provide details about the scope of change (e.g., line-specific, section-specific, full update) and any specific constraints or requirements."`
-  - **Output Structure**:  
-    1. **Header**: Includes a brief summary of changes, change scope, and affected section(s).  
-    2. **Code Block**:  
-       - Outputs the updated prompt in **Markdown format**, maintaining an unbroken single code block.  
-       - Frames affected sections or lines with **change notes** for easy GitHub integration.  
-       - **Fallback Mechanism**: Provides contextual suggestions if input lacks clarity.
+/generate_prompt Command:
 
-  - **Examples**:
-    - **Line-by-Line Update**:
-      ```markdown
-      ### Change Note
-      - **Scope**: Line-by-Line Update
-      - **Affected Line**: Line 5 of `/check_in`
+Description:
+The `/generate_prompt` command generates a fully structured Meta Prompt aligned with the Meta Prompt Workflow, including all sections, unchanged and revised content, formatted for GitHub integration.
 
-      **Updated Line 5**: "Synthesis Summary: Summarizes key contributions and objectives for clarity."
-      ```
-    - **Section-Specific Update**:
-      ```markdown
-      **Updated Section**:
-      **/check_in**
-      **Description**: Synthesizes role contributions, clarifies objectives, and provides actionable insights during workflow steps.
-      **Usage**: `/check_in "Topic or Roadblock: [Description]"`
+Usage:
+`/generate_prompt`
 
-      **Example**:
-      ```text
-      /check_in "Topic or Roadblock: Synthesizing Context for the Task"
+- Input: Specify if any section requires updates or revisions. Defaults to generating the full Meta Prompt if no input is provided.
+- Output: Produces the entire Meta Prompt, including the Auto Run Section, Priming Prompt, Confirm Understanding, Workflow (Steps 1-7), and Appendix (Commands and Roles).
 
-      Output Structure:
-      1. Synthesis Summary:
-         - **User Objective**: [Refined objective or problem statement].
-         - **Clarifying Questions**:
-           - [Question 1]
-           - [Question 2]
-         - **Role Contributions**:
-           - **Primary Role(s)**: [Key insights or suggestions].
-           - **Supporting Role(s)**: [Supplementary context or inputs].
-      2. Recommended Actions:
-         - [Action 1]
-         - [Action 2]
-         - [Action 3]
+- Output Structure: The output includes the following sections:
+   1. Auto Run Section: Prints the complete Auto Run Section.
+   2. Priming Prompt: Includes the full Priming Prompt section.
+   3. Confirm Understanding: Presents the Confirm Understanding section.
+   4. Workflow Steps (Steps 1-7): Each step is printed in full, with updated or unchanged content included seamlessly.
+   5. Appendix: Commands lists all Workflow-Specific Commands, Role Management Commands, Feedback and Iteration Commands, and other command categories. Roles contains all existing roles and any new roles appended at the end, formatted according to the Roles Template.
 
-      Integration:
-      The command dynamically adapts to workflow steps (e.g., Capture Vision, Gather Context) and includes active roles relevant to the topic or roadblock.
-      Fallback logic ensures foundational roles contribute when domain-specific roles are undefined or less relevant.
+- Example Output:
+   - Full Meta Prompt Output:
+   # Meta Prompt Workflow
+   ## Auto Run Section
+   [Full content here.]
+   ## Priming Prompt
+   [Full content here.]
+   ## Confirm Understanding
+   [Full content here.]
+   ## Workflow
+   ### Step 1: Capture the Vision
+   [Full content here.]
+   ### Step 2: Role Confirmation
+   [Full content here.]
+   ...
+   ## Appendix
+   ### Commands
+   #### 1. Workflow-Specific Commands
+   [List of all commands.]
+   ### Roles
+   #### Meta Prompt Architect (MPA)
+   [Full role details here.]
+   #### Expert ChatGPT Prompt Engineer (ECPE)
+   [Full role details here.]
+   #### New Role Example
+   [Full role details here.]
+
+- Fallback Mechanism: If the input does not provide clear instructions for revisions, the command defaults to generating the entire Meta Prompt in full, with all sections included.
 
 ---
 
