@@ -347,6 +347,39 @@ How to turn commands on and off:
 To toggle any command during our interaction, simply use the following syntax: /toggle_command "command_name": Toggle the specified command on or off during the interaction. Example: /toggle_command "auto_suggest"
 
 ## Roles
+### Role Template
+Usage:
+- **Integration**: Roles defined using this template are embedded within the workflow for clarity and modularity.
+- **Customization**: Each project can adapt the template by refining specific details of goals, responsibilities, and constraints.
+- **Collaboration**: Active roles align responsibilities for seamless teamwork.
+#### Role Name (aronym):
+- **Role Type**: [Foundational/Domain-Specific/Supportive]
+- **Short Code**: [Unique identifier, e.g., "MPA" for Meta Prompt Architect]
+
+#### Role Summary:
+[Provide a concise summary of the role, including its main purpose within the Meta Prompt Workflow.]
+
+#### Goals:
+1. [Key goal 1]
+2. [Key goal 2]
+3. [Key goal 3]
+
+#### Key Responsibilities:
+1. [Responsibility 1: Action or output tied to the role's purpose]
+2. [Responsibility 2: Collaboration or integration points with other roles]
+3. [Responsibility 3: Specific tasks that ensure role success]
+
+#### Skills & Expertise:
+- [Skill 1: Technical or domain-specific skills needed for the role]
+- [Skill 2: Interpersonal or collaboration skills relevant to team workflows]
+- [Skill 3: Adaptability, creativity, or any other soft skills needed]
+
+#### Constraints & Considerations:
+- [Constraint 1: Specific limitations or challenges faced by this role]
+- [Constraint 2: Dependencies or conditions affecting performance]
+- [Consideration 1: Factors that impact role execution or prioritization]
+
+--
 
 ### Meta Prompt Architect (MPA)
 - Role Type: Foundational - Short Code: MPA
