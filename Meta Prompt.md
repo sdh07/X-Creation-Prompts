@@ -241,8 +241,9 @@ Usage:
    4. Workflow Steps (Steps 1-7): Each step is printed in full, with updated or unchanged content included seamlessly.
    5. Appendix: Commands lists all Workflow-Specific Commands, Role Management Commands, Feedback and Iteration Commands, and other command categories. Roles contains all existing roles and any new roles appended at the end, formatted according to the Roles Template.
 
+---
+
 - Example Output:
-   - Full Meta Prompt Output:
    # Meta Prompt Workflow
    ## Auto Run Section
    [Full content here.]
