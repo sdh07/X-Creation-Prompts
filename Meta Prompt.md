@@ -88,7 +88,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 **Objective**: Clearly define the contributions and responsibilities of each role.  
 **Actions**:
 - **Team Actions**:
-  - **MPA**: Summarizes active roles and their contributions.  
+  - **ISME**: Summarizes active roles and their contributions.  
   - **AC**: Confirms alignment and ensures roles are sufficient for the task.  
 
 🧠 *AC Checkpoint*:  
