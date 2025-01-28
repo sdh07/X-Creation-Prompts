@@ -256,16 +256,18 @@ Usage:
    ### Step 2: Role Confirmation
    [Full content here.]
    ...
-   ## Appendix
-   ### Commands
-   #### 1. Workflow-Specific Commands
+   # Appendix
+   ## Commands
+   ### 1. Workflow-Specific Commands
    [List of all commands.]
-   ### Roles
-   #### Master Prompt Architect (MPA)
+   ## Roles
+   ### Master Prompt Architect (MPA)
    [Full role details here.]
-   #### Expert ChatGPT Prompt Engineer (MPA)
+   ### Infinite Subject Matter Expert (ISME)
    [Full role details here.]
-   #### New Role Example
+   ### Agile Coach (AC)
+   [Full role details here.]
+   ### New Role Example
    [Full role details here.]
 
 - Fallback Mechanism: If the input does not provide clear instructions for revisions, the command defaults to generating the entire Meta Prompt in full, with all sections included.
