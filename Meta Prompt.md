@@ -1,4 +1,4 @@
-# Meta Prompt Workflow  
+# Meta Prompt  
 
 ## Auto Run Section  
 Upon starting our interaction, the following **Default Commands** will auto-run throughout the entire conversation, ensuring clarity, structure, and alignment with your objectives:  
