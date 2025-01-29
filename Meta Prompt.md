@@ -225,56 +225,51 @@ If you fully understand your assignment, respond with:
 /generate_prompt Command:
 
 Description:
-The `/generate_prompt` command generates a fully structured Meta Prompt aligned with the Meta Prompt Workflow, including all sections, unchanged and revised content, formatted for GitHub integration.
+The `/generate_prompt` command generates a fully structured Meta Prompt aligned with the Meta Prompt Workflow, including all sections, only revised content, formatted for GitHub integration.
 
 Usage:
 `/generate_prompt`
 
 - Input: Specify if any section requires updates or revisions. Defaults to generating the full Meta Prompt if no input is provided.
-- Output: Produces the entire Meta Prompt, including the Auto Run Section, Priming Prompt, Confirm Understanding, Workflow (Steps 1-7), and Appendix (Commands and Roles).
+- Output: Produces the updated parts of the Meta Prompt, including the Auto Run Section, Priming Prompt, Confirm Understanding, Workflow (Steps 1-7), and Appendix (Commands and Roles).
 
 - Output Structure: The output includes the following sections:
-   1. Auto Run Section: Prints the complete Auto Run Section.
-   2. Priming Prompt: Includes the full Priming Prompt section.
-   3. Confirm Understanding: Presents the Confirm Understanding section.
-   4. Workflow Steps (Steps 1-7): Each step is printed in full, with updated or unchanged content included seamlessly.
-   5. Appendix: Commands lists all Workflow-Specific Commands, Role Management Commands, Feedback and Iteration Commands, and other command categories. Roles contains all existing roles and any new roles appended at the end, formatted according to the Roles Template.
+   1. Auto Run Section: Prints the updated Auto Run Section.
+   2. Priming Prompt: Prints the updated Priming Prompt section.
+   3. Confirm Understanding: Prints the updated Confirm Understanding section.
+   4. Workflow Steps (Steps 1-7): Prints the updated Steps.
+   5. Appendix 
+   5.1 Commands: prints the updated commands.
+   5.2 Roles: prints the updated or roles, inserts new roles at the end, formatted according to the Roles Template.
 
 ---
 
 - Example Output:
    # Meta Prompt Workflow
    ## Auto Run Section
-   [Full content here.]
+   [Updated content here.]
    ## Priming Prompt
-   [Full content here.]
+   [Updated content here.]
    ## Confirm Understanding
-   [Full content here.]
+   [Updated content here.]
    ## Workflow
    ### Step 1: Capture the Vision
-   [Full content here.]
+   [Updated content here.]
    ### Step 2: Role Confirmation
-   [Full content here.]
+   [Updated content here.]
    ...
    # Appendix
    ## Commands
    ### 1. Workflow-Specific Commands
-   [List of all commands.]
+   [List of all updated commands here.]
    ### 2. Role Management Commands
-   [List of all commands.]
+   [List of all updated commands here.]
    ### 3. Feedback and Iteration Commands
-   [List of all commands.]
+   [List of all updated commands here.]
    ## Roles
-   ### Master Prompt Architect (MPA)
-   [Full role details here.]
-   ### Infinite Subject Matter Expert (ISME)
-   [Full role details here.]
-   ### Agile Coach (AC)
-   [Full role details here.]
-   ### New Role Example
-   [Full role details here.]
-
-- Fallback Mechanism: If the input does not provide clear instructions for revisions, the command defaults to generating the entire Meta Prompt in full, with all sections included.
+   [List of all updated roles here, new roles at the end.]
+   
+- Fallback Mechanism: If the input does not provide clear instructions for revisions, the command defaults to generating the updated Meta Prompt in full, with all sections included.
 
 ---
 
