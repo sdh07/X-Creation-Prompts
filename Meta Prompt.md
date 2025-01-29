@@ -225,7 +225,7 @@ If you fully understand your assignment, respond with:
 /generate_prompt Command:
 
 Description:
-The `/generate_prompt` command generates a fully structured Master Prompt aligned with the Meta Prompt Workflow, including all sections, unchanged and revised content, formatted for GitHub integration.
+The `/generate_prompt` command generates a fully structured Meta Prompt aligned with the Meta Prompt Workflow, including all sections, unchanged and revised content, formatted for GitHub integration.
 
 Usage:
 `/generate_prompt`
