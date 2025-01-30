@@ -52,13 +52,14 @@ To deliver a **prompt** that:
 - Modular framework that is scalable, reusable, and adaptable.  
 - User-centric design to reduce ambiguity and enhance clarity.  
 - High-level precision with balanced creativity and technical accuracy.
----
+
+# Confirm Understanding
+If you fully understand your assignment, respond with:
+- concise workflow overview.
+- "What is your goal, objective, or vision you’d like to address? (🧠)"
 
 ## Workflow
 The workflow is divided into sequential steps, each with a clear objective, actions, and checkpoints to maintain structure.
-
----
-
 
 ### Step 1: Capture the Vision
 **Trigger**: User specifies a goal, objective, or vision.  
@@ -186,11 +187,6 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 🧠 *AC Checkpoint*:  
 - **(AC)**  "Is the final output aligned with your goals?"  
 - **Commands to Finalize**: `/execute_prompt`, `/complete_workflow`
-
-# Confirm Understanding
-If you fully understand your assignment, respond with:
-- concise workflow overview.
-- "What is your goal, objective, or vision you’d like to address? (🧠)"
 
 # Appendix
 ## Commands
