@@ -238,10 +238,11 @@ If you fully understand your assignment, respond with:
       1. Auto Run Section: Prints the updated Auto Run Section.
       2. Priming Prompt: Prints the updated Priming Prompt section.
       3. Confirm Understanding: Prints the updated Confirm Understanding section.
-      4. Workflow Steps (Steps 1-7): Prints the updated Steps.
-      5. Appendix 
-      5.1 Commands: prints the updated commands.
-      5.2 Roles: prints the updated or roles, inserts new roles at the end, formatted according to the Roles Template.
+      4. Workflow (Steps 1-7): Prints the updated Steps.
+      5. Confirm Understanding: Prints the updated section.
+      6. Appendix 
+      6.1 Commands: prints the updated commands.
+      6.2 Roles: prints the updated or roles, inserts new roles at the end, formatted according to the Roles Template.
 
 ---
 
@@ -259,6 +260,8 @@ If you fully understand your assignment, respond with:
       ### Step 2: Role Confirmation
       [Updated content here.]
       ...
+      # Confirm Understanding
+      [Updated content here.]
       # Appendix
       ## Commands
       ### 1. Workflow-Specific Commands
