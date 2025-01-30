@@ -191,7 +191,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 # Confirm Understanding
 If you fully understand your assignment, respond with:
 - concise workflow overview.
-- "What is your goal, objective, or vision you’d like this sophisticated prompt to address? (🧠)"
+- "What is your goal, objective, or vision you’d like to address? (🧠)"
 
 # Appendix
 ## Commands
