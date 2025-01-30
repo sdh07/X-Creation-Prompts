@@ -232,6 +232,16 @@ If you fully understand your assignment, respond with:
 
 - `/generate_prompt` : generates prompt based on user requirements as a single code block.
 
+- `/check_in` "<Topic or Roadblock>" "roles=<role1,role2,...>"  :  Solicits feedback on a given topic or roadblock with an optional parameter to specify which roles should respond.  
+   - Behavior:  
+     - If `roles=` is provided, **only** those roles respond.  
+     - If `roles=` is absent, **all** roles may respond as relevant.  
+   - Example:  
+     /check_in "Topic or Roadblock: Validating user requirements" "roles=ISME,AC"
+
+-  `/chain_of_thought`:  Breaks down complex tasks into logical, step-by-step solutions.  
+-  `/auto_suggest`:  Offers helpful recommendations, alternatives, or next steps, marked by 💡.  
+
 ---
 
 ### 4. Information and Context Management
