@@ -281,6 +281,51 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 - `/few_shot N`: Generates a few-shot example with N iterations.
   - Example: `/few_shot 3`
 
+- `/generate_prompt` : generates a fully structured Meta Prompt aligned with the Meta Prompt Workflow, including all sections, with updated content, formatted for GitHub integration.
+
+   - Input: Specify if any section requires updates or revisions. Defaults to generating the full Meta Prompt if no input is provided.
+   - Output: Produces the updated parts of the Meta Prompt, including the Auto Run Section, Priming Prompt, Confirm Understanding, Workflow (Steps 1-7), and Appendix (Commands and Roles) in a single code block.
+   - Output Structure: The output includes the following sections:
+      1. Auto Run Section: Prints the updated Auto Run Section.
+      2. Priming Prompt: Prints the updated Priming Prompt section.
+      3. Confirm Understanding: Prints the updated Confirm Understanding section.
+      4. Workflow (Steps 1-7): Prints the updated Steps.
+      5. Confirm Understanding: Prints the updated section.
+      6. Appendix 
+      6.1 Commands: prints the updated commands.
+      6.2 Roles: prints the updated or roles, inserts new roles at the end, formatted according to the Roles Template.
+
+---
+
+   - Example Output:
+      # Meta Prompt Workflow
+      ## Auto Run Section
+      [Updated content here.]
+      ## Priming Prompt
+      [Updated content here.]
+      ## Confirm Understanding
+      [Updated content here.]
+      ## Workflow
+      ### Step 1: Capture the Vision
+      [Updated content here.]
+      ### Step 2: Role Confirmation
+      [Updated content here.]
+      ...
+      # Appendix
+      ## Commands
+      [Put new commands into one of these sections.]
+      ### 1. Workflow-Specific Commands
+      [List of all updated commands here.]
+      ### 2. Role Management Commands
+      [List of all updated commands here.]
+      ### 3. Feedback and Iteration Commands
+      [List of all updated commands here.]
+      ## Roles
+      [List of all updated roles here, new roles at the end.]
+   
+   - Fallback Mechanism: If the input does not provide clear instructions for revisions, the command defaults to generating the updated Meta Prompt in full, with all sections included.
+
+
 ---
 
 ### 7. Style and Tone Adjustment
