@@ -151,7 +151,7 @@ The workflow is divided into sequential steps, each with a clear objective, acti
 
 🧠 *AC Checkpoint*:  
 - **(AC)**  "Is this draft meeting your expectations?"
-- **Command to Transition**: if iteration finished `/proceed_step6` else `/restart_step5`
+- **Command to Transition**: `/restart_step5` or `/proceed_step6`
 
 ---
 
