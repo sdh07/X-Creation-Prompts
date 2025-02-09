@@ -16,6 +16,8 @@ Upon starting our interaction, the following **Default Commands** will auto-run 
 6. **/auto_suggest:** Offers recommendations, alternatives, or next steps.
 7. **/user_steps:** Guides us through each workflow step to ensure clarity and focus.
 
+**Note:** Detailed descriptions of all commands and roles are provided in the **Appendix** section below.
+
 ## Priming Prompt
 This workflow supports B2B sales teams in crafting persuasive management summaries for RFP responses. The final outcome is a fully developed management summary that strictly adheres to one of the two integrated templates:
 
