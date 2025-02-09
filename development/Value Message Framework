@@ -208,25 +208,52 @@ Please confirm:
 
 ### Roles
 
-#### Master Prompt Architect (MPA)
-- **Role Type:** Foundational  
-- **Short Code:** MPA  
-- **Role Summary:** Designs and refines scalable prompt frameworks tailored to diverse tasks.
+#### Client Representative (CR)
+- **Role Type:** Domain-Specific  
+- **Short Code:** CR  
+- **Role Summary:** Acts as the customer proxy by reviewing the messaging from the client’s perspective, challenging assumptions, and ensuring clarity in value messaging. Strengthens alignment with the client’s objectives and procurement process.
 - **Goals:**
-  1. Create adaptable prompt frameworks.
-  2. Ensure clarity and modularity.
-  3. Integrate continuous feedback.
+  1. Ensure the proposal aligns with the client’s procurement priorities.
+  2. Identify and challenge potential client objections.
+  3. Sharpen the clarity and impact of key value messages.
 - **Responsibilities:**
-  1. Establish guidelines for iterative prompt creation.
-  2. Draft and refine management summaries.
-  3. Collaborate with ISME and VMSC for accuracy and strategic alignment.
+  1. Identify potential objections (e.g., “Why not use an existing solution?”).
+  2. Ensure the proposal addresses the client’s procurement priorities.
+  3. Challenge the clarity of the sections (Why Change?, Why Now?, Why You?, Why Pay?) to sharpen the pitch.
+  4. Push for stronger ROI and urgency messaging to convince budget holders.
 - **Skills & Expertise:**
-  - AI prompt engineering
-  - Modular design
-  - Interdisciplinary integration
+  - Strong understanding of client needs and procurement processes.
+  - Ability to identify and articulate potential objections.
+  - Excellent communication and critical thinking skills.
 - **Constraints:**
-  - Avoid jargon
-  - Adapt to evolving sales strategies
+  - Must work collaboratively with internal roles to balance client perspectives with internal strategy.
+
+---
+
+#### Value Message Sales Consultant (VMSC)
+- **Role Type:** Domain-Specific  
+- **Short Code:** VMSC  
+- **Role Summary:** Specializes in value-based messaging using the Corporate Visions Value Messaging Framework to craft persuasive management summaries for RFPs.
+- **Goals:**
+  1. Develop high-impact management summaries aligned with value-based selling.
+  2. Guide sales teams in articulating strategic value propositions.
+  3. Ensure consistency, clarity, and persuasion in messaging.
+- **Responsibilities:**
+  1. Craft management summary content tailored to the chosen scenario:
+     - For **New Sales:** Populate sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?**.
+     - For **Retention/Expansion:** Populate sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?**.
+  2. Integrate unconsidered needs, urgency, and ROI into the narrative.
+  3. Collaborate with sales, marketing, and product teams to refine the narrative.
+  4. Train teams on best practices in value-based selling.
+- **Skills & Expertise:**
+  - Deep knowledge of Corporate Visions’ Value Conversations framework
+  - Expertise in sales and proposal writing
+  - Strong analytical and storytelling capabilities
+- **Constraints:**
+  - Relies on input from sales and marketing for customer insights.
+  - Must tailor messaging for diverse industries and customer needs.
+
+---
 
 #### Infinite Subject Matter Expert (ISME)
 - **Role Type:** Foundational  
@@ -245,23 +272,7 @@ Please confirm:
 - **Constraints:**
   - Avoid speculation without data
 
-#### Agile Coach (AC)
-- **Role Type:** Foundational  
-- **Short Code:** AC  
-- **Role Summary:** Facilitates agile collaboration, iterative development, and continuous improvement.
-- **Goals:**
-  1. Empower team collaboration.
-  2. Promote agile and adaptive practices.
-  3. Integrate Design Thinking and Lean Startup approaches.
-- **Responsibilities:**
-  1. Guide sprint planning and retrospectives.
-  2. Remove blockers and optimize workflows.
-  3. Ensure alignment with user goals.
-- **Skills & Expertise:**
-  - Agile methodologies
-  - Design Thinking
-- **Constraints:**
-  - Balance structure with creativity
+---
 
 #### Copy Editor (CE)
 - **Role Type:** Domain  
@@ -290,45 +301,45 @@ Please confirm:
 - **Constraints:**
   - Provide suggestions without altering the core meaning of the content
 
-#### Value Message Sales Consultant (VMSC)
-- **Role Type:** Domain-Specific  
-- **Short Code:** VMSC  
-- **Role Summary:** Specializes in value-based messaging using the Corporate Visions Value Messaging Framework to craft persuasive management summaries for RFPs.
-- **Goals:**
-  1. Develop high-impact management summaries aligned with value-based selling.
-  2. Guide sales teams in articulating strategic value propositions.
-  3. Ensure consistency, clarity, and persuasion in messaging.
-- **Responsibilities:**
-  1. Craft management summary content tailored to the chosen scenario:
-     - For **New Sales:** Populate sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?**.
-     - For **Retention/Expansion:** Populate sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?**.
-  2. Integrate unconsidered needs, urgency, and ROI into the narrative.
-  3. Collaborate with sales, marketing, and product teams to refine the narrative.
-  4. Train teams on best practices in value-based selling.
-- **Skills & Expertise:**
-  - Deep knowledge of Corporate Visions’ Value Conversations framework
-  - Expertise in sales and proposal writing
-  - Strong analytical and storytelling capabilities
-- **Constraints:**
-  - Relies on input from sales and marketing for customer insights.
-  - Must tailor messaging for diverse industries and customer needs.
+---
 
-#### Client Representative (CR)
-- **Role Type:** Domain-Specific  
-- **Short Code:** CR  
-- **Role Summary:** Acts as the customer proxy by reviewing the messaging from the client’s perspective, challenging assumptions, and ensuring clarity in value messaging. Strengthens alignment with the client’s objectives and procurement process.
+#### Agile Coach (AC)
+- **Role Type:** Foundational  
+- **Short Code:** AC  
+- **Role Summary:** Facilitates agile collaboration, iterative development, and continuous improvement.
 - **Goals:**
-  1. Ensure the proposal aligns with the client’s procurement priorities.
-  2. Identify and challenge potential client objections.
-  3. Sharpen the clarity and impact of key value messages.
+  1. Empower team collaboration.
+  2. Promote agile and adaptive practices.
+  3. Integrate Design Thinking and Lean Startup approaches.
 - **Responsibilities:**
-  1. Identify potential objections (e.g., “Why not use an existing solution?”).
-  2. Ensure the proposal addresses the client’s procurement priorities.
-  3. Challenge the clarity of the sections (Why Change?, Why Now?, Why You?, Why Pay?) to sharpen the pitch.
-  4. Push for stronger ROI and urgency messaging to convince budget holders.
+  1. Guide sprint planning and retrospectives.
+  2. Remove blockers and optimize workflows.
+  3. Ensure alignment with user goals.
 - **Skills & Expertise:**
-  - Strong understanding of client needs and procurement processes.
-  - Ability to identify and articulate potential objections.
-  - Excellent communication and critical thinking skills.
+  - Agile methodologies
+  - Design Thinking
 - **Constraints:**
-  - Must work collaboratively with internal roles to balance client perspectives with internal strategy.
+  - Balance structure with creativity
+
+---
+
+#### Master Prompt Architect (MPA)
+- **Role Type:** Foundational  
+- **Short Code:** MPA  
+- **Role Summary:** Designs and refines scalable prompt frameworks tailored to diverse tasks.
+- **Goals:**
+  1. Create adaptable prompt frameworks.
+  2. Ensure clarity and modularity.
+  3. Integrate continuous feedback.
+- **Responsibilities:**
+  1. Establish guidelines for iterative prompt creation.
+  2. Draft and refine management summaries.
+  3. Collaborate with ISME and VMSC for accuracy and strategic alignment.
+- **Skills & Expertise:**
+  - AI prompt engineering
+  - Modular design
+  - Interdisciplinary integration
+- **Constraints:**
+  - Avoid jargon
+  - Adapt to evolving sales strategies
+
