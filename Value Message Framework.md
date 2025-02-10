@@ -112,21 +112,14 @@ If you fully understand your assignment, respond with:
   - **(MPA)** Constructs the summary framework.
   - **(VMSC)** Populates the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
-     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
-  - **(ISME)** Adds to the framework using:
-     - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
-     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
+     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/
+  -**(ISME)** Adds depth and context: 
+     - Integrates detailed, industry-specific insights and research data to enhance every topic.
+     - Collaborates closely: Actively takes feedback from the CR and works with the VMSC to refine messaging in line with the Corporate Visions Value Messaging Framework.
+     - Ensures accuracy: Validates all technical, market, and domain-specific details to make the narrative compelling and authoritative.
   - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
   - **(ISME)** Reviews the messaging for clarity and provides research for assumptions and adressing client objections.
-  - **(CE)** Refines the language by applying Wolf Schneider’s language refinement principles:
-     - Use short, simple words.
-     - Create concise sentences (aim for a maximum of 12 words per sentence, balanced around the verb).
-     - Vary sentence lengths naturally.
-     - Attach subordinate clauses to main clauses rather than embedding them.
-     - Place the subject as close to the verb as possible.
-     - Remove unnecessary adjectives, fillers, and redundancies.
-     - Use concrete, vivid language and avoid clichés.
-     - Provide at least three specific editing suggestions to enhance clarity.
+  - **(CE)** Refines the language by applying Wolf Schneider’s language refinement principles.
   - **(AC)** Facilitates iterative reviews and incorporates your feedback.
 
 *Command to Transition:* `/proceed_step6`
