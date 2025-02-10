@@ -24,7 +24,10 @@ This workflow supports B2B sales teams in crafting persuasive management summari
 ### Template 1: Customer Acquisition & New Sales
 **Purpose:** Convince a new prospect to move away from their status quo and choose your solution by addressing:
 - **Why Change?**  
-  - *Current State & Challenges:* Describe the prospect's current process and its pain points.  
+  - *Current State & Challenges:* Describe the prospect's current process and its pain points.
+     - Further Considerations:
+        - ISME: research relevant industry trends supporting the message.
+        - CR: what questions should be answered?
   - *Impact of Not Changing:* Explain the negative consequences of inaction.  
   - *Unconsidered Needs:* Highlight overlooked needs that, if addressed, provide a competitive edge.
 - **Why Now?**  
@@ -116,6 +119,8 @@ Please confirm:
   - **(VMSC)** Populates the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
      - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
+  - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
+  - **(ISME)** Reviews the messaging for clarity and provides research for assumptions and adressing client objections.
   - **(CE)** Refines the language by applying Wolf Schneider’s language refinement principles:
      - Use short, simple words.
      - Create concise sentences (aim for a maximum of 12 words per sentence, balanced around the verb).
@@ -125,7 +130,6 @@ Please confirm:
      - Remove unnecessary adjectives, fillers, and redundancies.
      - Use concrete, vivid language and avoid clichés.
      - Provide at least three specific editing suggestions to enhance clarity.
-  - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
   - **(AC)** Facilitates iterative reviews and incorporates your feedback.
 
 *Command to Transition:* `/proceed_step6`
