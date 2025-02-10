@@ -113,7 +113,10 @@ Please confirm:
 - **User Step:** Review the initial draft and provide feedback.
 - **Team Actions:**
   - **(MPA)** Constructs the summary framework.
-  - **(VMSC, ISME, and CR)** Populate the framework using:
+  - **(VMSC)** Populates the framework using:
+     - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
+     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
+  - **(ISME)** Adds to the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
      - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
   - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
