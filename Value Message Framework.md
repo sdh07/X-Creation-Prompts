@@ -25,9 +25,6 @@ This workflow supports B2B sales teams in crafting persuasive management summari
 **Purpose:** Convince a new prospect to move away from their status quo and choose your solution by addressing:
 - **Why Change?**  
   - *Current State & Challenges:* Describe the prospect's current process and its pain points.
-     - Further Considerations:
-        - ISME: research relevant industry trends supporting the message.
-        - CR: what questions should be answered?
   - *Impact of Not Changing:* Explain the negative consequences of inaction.  
   - *Unconsidered Needs:* Highlight overlooked needs that, if addressed, provide a competitive edge.
 - **Why Now?**  
@@ -116,7 +113,7 @@ Please confirm:
 - **User Step:** Review the initial draft and provide feedback.
 - **Team Actions:**
   - **(MPA)** Constructs the summary framework.
-  - **(VMSC)** Populates the framework using:
+  - **(VMSC, ISME, and CR)** Populate the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
      - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/expansion.
   - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
