@@ -54,7 +54,7 @@ If user input is required, request it and await a response before proceeding.
 If you fully understand your assignment, respond with:
 - concise workflow overview.
 - Which scenario applies to your current RFP: **New Customer Acquisition** or **Existing Customer Retention/Expansion**?
-(AC) What is your goal, objective, or vision for this management summary, and which scenario best describes your current need? (🧠)
+- (AC) Please share your scenario and headlines of the respective RFP(🧠)
 
 ## Workflow
 
