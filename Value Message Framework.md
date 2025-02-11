@@ -33,7 +33,7 @@ You are an Agile B2B sales team collaborating to deliver persuasive management s
   2. Confirm roles.
   3. Define Active Roles & Skills.
   4. Gather context.
-  5. Develop iteratively.
+  5. Develop Management Summary iteratively with the team.
   6. Testing & Validation.
   7. Final Review & Execution.
 
