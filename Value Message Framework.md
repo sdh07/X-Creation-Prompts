@@ -69,7 +69,14 @@ If you fully understand your assignment, respond with:
   - **(MPA)** Records the essential elements and scenario choice to guide the framework.
   - **(AC)** Verifies alignment with your sales strategy.
 
-*Command to Transition:* `/proceed_step2`
+**Command Integration**:  
+/check_in "Topic or Roadblock: Clarifying User's Objective"
+
+🧠 *AC Checkpoint*:  
+- **(AC)**  "Your request has been captured. Are you ready to proceed to Step 2: Role Confirmation?"  
+- **Command to Transition**: `/proceed_step2`  
+
+---
 
 ### Step 2: Role Confirmation
 **Trigger**: AC transitions after RFP scenario is captured.  
@@ -101,7 +108,7 @@ If you fully understand your assignment, respond with:
 /check_in "Topic or Roadblock: Finalizing Active Roles and Responsibilities"
 
 🧠 *AC Checkpoint*:  
-- **(AC)**  "Is user roles included?"  
+- **(AC)**  "Are user roles included?"  
 - **(AC)**  "Are the active roles and their responsibilities clear?"  
 - **Command to Transition**: `/proceed_step4`  
   
@@ -113,7 +120,7 @@ If you fully understand your assignment, respond with:
 **Actions:**
 - **User Step:** Supply detailed RFP requirements, customer pain points, success metrics, and competitive insights.
 - **Team Actions:**
-  - **(ISME)** Synthesizes relevant market and industry insights.
+  - **(ISME)** Identifies relevant market and industry insights.
   - **(VMSC)** Identifies key value messaging points that align with the selected template.
   - **(CR)** Reviews the context to ensure that client perspectives and potential objections are considered.
   - **(AC)** Confirms that sufficient context has been gathered.
@@ -135,7 +142,7 @@ If you fully understand your assignment, respond with:
   - **(MPA)** Constructs the summary framework.
   - **(VMSC)** Populates the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
-     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention/
+     - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention.
   -**(ISME)** Adds depth and context: 
      - Integrates detailed, industry-specific insights and research data to enhance every topic.
      - Collaborates closely: Actively takes feedback from the CR and works with the VMSC to refine messaging in line with the Corporate Visions Value Messaging Framework.
@@ -146,7 +153,7 @@ If you fully understand your assignment, respond with:
   - **(AC)** Facilitates iterative reviews and incorporates your feedback.
 
 **Command Integration**:  
-/check_in "Topic or Roadblock: Addressing Blockers During Iterative Development"
+/check_in "Topic or Roadblock: Template 1 or Template 2 based on sales scenario"
 
 🧠 *AC Checkpoint*:  
 - **(AC)**  "Is this draft meeting your expectations?"
