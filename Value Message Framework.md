@@ -151,7 +151,7 @@ If you fully understand your assignment, respond with:
      - Identify and promote distinctive features of our offerings, ensuring solutions clearly convey competitive advantages.
   - **(ISME)** Adds depth and context for the industry: 
      - Integrates detailed, industry-specific insights and research data to enhance every topic.
-     - Collaborates closely: Actively takes feedback from the CR and works with the DE to refine messaging in line with the Corporate Visions Value Messaging Framework.
+     - Collaborates closely: Actively takes feedback from the CR and works with the DE to refine messaging in line with the Corporate Visions Value Messaging Framework and the SA to refine the solution's outcome for the CR.
      - Ensures accuracy: Validates all technical, market, and domain-specific details to make the narrative compelling and authoritative.
   - **(CR)** Reviews the messaging for clarity and challenges assumptions by posing potential client objections.
   - **(ISME)** Reviews the messaging for clarity and provides research for assumptions and adressing client objections.
