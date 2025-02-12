@@ -145,11 +145,11 @@ If you fully understand your assignment, respond with:
   - **(DE)** Populates the framework using:
      - **Template 1:** Sections for **Why Change?**, **Why Now?**, **Why You?**, and **Why Pay?** for new sales.
      - **Template 2:** Sections for **Why Stay?**, **Why Evolve?**, and **Why Pay More?** for retention.
-  -**(SA)** Adds depth and context for the solution: 
+  - **(SA)** Adds depth and context for the solution: 
      - Translate customer requirements into holistic architectures that leverage multiple service domains to meet strategic objectives.  
      - Work closely with ISME, DE, and CE to align technical components with business goals and contractual 
      - Identify and promote distinctive features of our offerings, ensuring solutions clearly convey competitive advantages.
-  -**(ISME)** Adds depth and context for the industry: 
+  - **(ISME)** Adds depth and context for the industry: 
      - Integrates detailed, industry-specific insights and research data to enhance every topic.
      - Collaborates closely: Actively takes feedback from the CR and works with the DE to refine messaging in line with the Corporate Visions Value Messaging Framework.
      - Ensures accuracy: Validates all technical, market, and domain-specific details to make the narrative compelling and authoritative.
