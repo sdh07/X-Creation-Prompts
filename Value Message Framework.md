@@ -83,11 +83,9 @@ If you fully understand your assignment, respond with:
 **Trigger**: DE transitions after RFP scenario is captured.  
 **Objective:** Confirm the roles involved in crafting the management summary.
 **Actions:**
+- **(DE)** Introduces active roles.
+- **(ISME)** Proposes possible new roles based on RFP requirements.  
 - **User Step:** Review and adjust the roles as necessary.
-- **Team Actions:**
-  - **(ISME)** Proposes roles based on RFP requirements.  
-  - **(DE)** Confirms that roles align with your sales and RFP objectives.
-  - **(CE)** Provides initial feedback from the client perspective.
   
 **Command Integration**:  
 /check_in "Topic or Roadblock: Confirming Role Alignment for the Task"
